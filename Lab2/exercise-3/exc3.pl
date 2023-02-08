@@ -46,10 +46,19 @@ print("> begin of 4.6\n");
 # A12345a
 # AZ234567
 # \s\w\d{5}\s|\s\w{2}\d{6}\s
-# \s\w{2}\d{6}\s
+# \s\w{1,2}\d{5,6}\s
 $_ = "A12345";
-print(Match "bank\n") if (/\s\w\d{5}\s|\s\w{2}\d{6}\s/);
+print("Match bank\n") if (/\s\w\d{5}\s|\s\w{2}\d{6}\s/);
+# program do not know 1 correspond to d{5}, and 2 correspond to d{6} respectively.
 print("> end of 4.6\n");
 #4.7
-
+print("> begin of 4.7\n");
+#GCCNNNNNGGC
+$_ = "GCCATCGTGGC";
+print("Match CUT DNA!\n") if (/GCC[ATCG]{5}GGC/);
+print("> end of 4.7\n");
 #4.14
+print("> begin of 4.14\n");
+$_ = "TATAAAACCCCCCCCCCCCCCCCCTTCAAA";
+print("Match promoter!\n") if (/TATA[AT]A[AT].{17}[CT][CT]CA[AG][AG]/);
+print("> end of 4.14\n");
