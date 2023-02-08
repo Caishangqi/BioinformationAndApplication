@@ -1,0 +1,7 @@
+PROSITE - A database of regular expressions for protein domains and families.
+link: https://prosite.expasy.org/
+
+#Proteins in the lumen of the ER(Endoplasmic Reticulum) are distinguished from the newly synthesized secretory proteins by the presence
+#of the C-terminal sequence : Lys - Asp - Glu - Leu (KDEL). A variation of KDEL is always present in this protein family.
+#(K|R|H|Q|A)(D|E|N|Q)EL
+#How many sequences can be defined with the above Perl regex?

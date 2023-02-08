@@ -1,0 +1,17 @@
+Rule 1 : Any character from the literal alphabet(all characters other than the meta characters) is a regular expression. 
+
+Rule 2 : Concatenation of regular expressions is also a regular expression. eg: in m/TATA/ T,A,T,A are all regular expressions. So 4 regexs
+
+Rule 3 : '|' in regex symbolizes 'or'. eg: m/TATA|tata/ matches TATA or tata or both.
+
+Rule 4 : Any regex inside parantheses('()') is also a regular expression. eg: (TATA), (TATA|tata)
+
+Rule 5 : Any regex followed by '+' or '*' is a regex. 
+		'+' : preceding regex appears one or more times.
+		'*' : preceding regex appears zero or more times.
+		eg : TA+GG in ATATAAAGGGA - True or False?
+			 What if you change it to (TA)+GG??
+			 TATATATAGG
+			 
+			 TATAAAGG
+		
