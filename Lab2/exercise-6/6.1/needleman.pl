@@ -28,8 +28,8 @@ $m = @string2;
 #gtagtgcacattcatatgaggtgaataagc
 #gtatctatgcccacagccggttctacgcgt
 
-#gtatctatgc
 #gtagtgcaca
+#gtatctatgc
 
 print "The lengths of the two strings are $n, $m \n"; # Just to make sure this works.
 

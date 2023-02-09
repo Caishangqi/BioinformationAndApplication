@@ -4,48 +4,23 @@
 #with match value = 1, and mismatch and indel value = -1.
 #dg
 use warnings FATAL => 'all';
-use strict;
-
 
 package Inbuild;
+
 sub lsc {
     my @list = @_;
-    my $first_line = @list[0];
+    my $first_line = $list[0];
     chomp($first_line);
     my @string1 = split(//, $first_line);
     my $n = @string1;
 
-    my $second_line = @list[1];
+    my $second_line = $list[1];
     chomp($second_line);
     my @string2 = split(//, $second_line);
     my $m = @string2;
 
     print "The lengths of the two strings are $n, $m \n"; # Just to make sure this works.
-
-
-    # print "Input string 1 \n";
-    # $line = <>;
-    # chomp $line;
-    # @string1 = split(//, $line); #split up the line into individual characters
-    # #and place the characters into a list, whose
-    # #first index is 0 (here Perl has inherited
-    # #one of the worst features of C) See Johnson
-    # # 4.3 for an introduction to lists.  Look up
-    # # split in the index and read it.
-    # 
-    # print "Input string 2 \n";
-    # $line = <>;
-    # chomp $line;
-    # @string2 = split(//, $line);
-    # 
-    # $n = @string1; #assigning a list to a scalar just assigns the
-    # #number of elements in the list to the scalar.
-    # $m = @string2;
-
-    # two string used as random
-    #gtagtgcacattcatatgaggtgaataagc
-    #gtatctatgcccacagccggttctacgcgt
-
+    
 
     $V[0][0] = 0; # Assign the 0,0 entry of the V matrix
 
@@ -90,4 +65,5 @@ sub lsc {
     }
     return $V[$n][$m];
 }
+
 1;
