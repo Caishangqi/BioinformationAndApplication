@@ -1,0 +1,7 @@
+﻿# two string used as random
+#gtagtgcacattcatatgaggtgaataagc
+#gtatctatgcccacagccggttctacgcgt
+
+# result output
+
+ The similarity value of the two strings is 11

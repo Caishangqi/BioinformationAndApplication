@@ -12,6 +12,9 @@ BEGIN {
         my @string2 = split(//, $second_line);
         my $m = @string2;
 
+        print($first_line);
+        print($second_line);
+        print("\n");
         print "The lengths of the two strings are $n, $m \n"; # Just to make sure this works.
 
 
@@ -62,7 +65,7 @@ BEGIN {
         # parameter list
         # file name input
         # number of string
-        
+
         my ($filename, $number_of_strings) = @_;
         my @list = @_;
         #my $filename = $list[0];
@@ -72,26 +75,28 @@ BEGIN {
         my $sum = 0;
         my $average = 0;
         my $the_first_line = "";
-        open (INPUT, $filename);
+        open(INPUT, $filename);
         print("(!) open success!\n");
-        for(my $init = 0; $init < $number_of_strings; $init++) {
+        for (my $init = 0; $init < $number_of_strings; $init++) {
             print("(!) init value is $init\n");
             if ($init == 0) {
                 $the_first_line = <INPUT>;
                 print("first line is: $the_first_line\n");
-            } else {
+            }
+            else {
                 my $nextline = <INPUT>;
                 print("next line is $nextline\n");
-                my $sim_score = lsc($the_first_line,$nextline);
+                my $sim_score = lsc($the_first_line, $nextline);
                 $sum = $sum + $sim_score;
             }
         }
+        #print($sum);
         $average = $sum / $number_of_strings;
         close(INPUT);
-        return($average);
+        return ($average);
     }
 }
-open (OUT, "> randomstring.txt");
+open(OUT, "> randomstring.txt");
 
 print "How many nucleotides for the string?\n";
 $n = <>;
@@ -101,20 +106,18 @@ my $number_of_strings = <>;
 
 $numstring = ''; # start with the empty string;
 my $i = 0;
-for (my $init = 0; $init < $number_of_strings; $init ++) {
-    
-    
-    while ($i < $n) {
+for (my $init = 0; $init < $number_of_strings; $init++) {
 
+    while ($i < $n) {
 
         $numstring = int(rand(4)) . $numstring; # generate a new random integer
         # between 0 and 3, and concatenate
         # it with the existing $numstring,
         # assigning the result to $numstring.
-        $i++;                                   # increase the value of $i by one.
+        $i++; # increase the value of $i by one.
     }
 
-    $dnastring = $numstring;                  # unneeded, but good for clarity.
+    $dnastring = $numstring;     # unneeded, but good for clarity.
     $dnastring =~ tr/0123/actg/; # translate the numbers to DNA characters.
     print OUT "$dnastring\n";
     #
@@ -122,9 +125,9 @@ for (my $init = 0; $init < $number_of_strings; $init ++) {
     $numstring = '';
     #
 }
-close (OUT);
+close(OUT);
 print("Phase1 Done!\n");
-print aveLsc("randomstring.txt",$number_of_strings);
+print aveLsc("randomstring.txt", $number_of_strings);
 
 # conclusion
 # question 1: 2.64 average

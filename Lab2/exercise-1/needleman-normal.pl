@@ -58,7 +58,8 @@ for ($i = 1; $i <= $n; $i++) { # follow the recurrences to fill in the V matrix.
         #   print OUT "$string1[$i-1], $string2[$j-1]\n"; # This is here  for debugging purposes.
         if ($string1[$i - 1] eq $string2[$j - 1]) {
             # modification
-            $t = $match_value;}
+            $t = $match_value;
+        }
         elsif ($string1[$i - 1] eq ' ' or $string2[$j - 1] eq ' ') {
             $t = $indel_cost;
         }
@@ -68,43 +69,18 @@ for ($i = 1; $i <= $n; $i++) { # follow the recurrences to fill in the V matrix.
         }
 
         $max = $V[$i - 1][$j - 1] + $t;
-        # modification
-        # $select[$i - 1][$j - 1] = 0;
-        # end of modification
 
         #  print OUT "For $i, $j, t is $t \n"; # Another debugging line.
         if ($max < $V[$i][$j - 1] - 1) {
-            # modification
-            # if ($select[$i][$j - 1] == 1) {
-            #     $max = $V[$i][$j - 1];
-            #     $select[$i][$j] = 1;
-            # }
-            # else {
-            #     $max = $V[$i][$j - 1] - 1;
-            #     $select[$i][$j] = 1;
-            # }
-            # end of modification
             $max = $V[$i][$j - 1] - 1;
         }
 
         if ($V[$i - 1][$j] - 1 > $max) {
-            # modification
-            # if ($select[$i-1][$j] == 1) {
-            #     $max = $V[$i-1][$j];
-            #     $select[$i][$j] = 1;
-            # }
-            # else {
-            #     $max = $V[$i-1][$j] - 1;
-            #     $select[$i][$j] = 1;
-            # }
-            # end of modification
+
             $max = $V[$i - 1][$j] - 1;
         }
         $V[$i][$j] = $max;
-        print OUT "V[$i][$j] has value $V[$i][$j]\n"; #原本应该释放这个
-        # modification
-        # print OUT "select[$i][$j] has value $select[$i][$j]\n";
-        # end of modification
+        print OUT "V[$i][$j] has value $V[$i][$j]\n";
     }
 }
 print OUT "\n The similarity value of the two strings is $V[$n][$m]\n";

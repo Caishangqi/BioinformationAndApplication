@@ -3,7 +3,16 @@
 #in the model and
 #with match value = 1, and mismatch and indel value = -1.
 #dg
-use warnings FATAL => 'all';
+
+# modification
+print "> Input match value: \n";
+$match_value = <>;
+print "> Input mismatch cost: \n";
+$mismatch_cost = <>;
+print "> Input indel cost: \n";
+$indel_cost = <>;
+# end of modification
+
 open(OUT, '> outer'); #Open a file called 'outer' for outputing.
 print "Input string 1 \n";
 $line = <>;
@@ -24,13 +33,6 @@ $n = @string1; #assigning a list to a scalar just assigns the
 #number of elements in the list to the scalar.
 $m = @string2;
 
-# two string used as random
-#gtagtgcacattcatatgaggtgaataagc
-#gtatctatgcccacagccggttctacgcgt
-
-#gtagtgcaca
-#gtatctatgc
-
 print "The lengths of the two strings are $n, $m \n"; # Just to make sure this works.
 
 $V[0][0] = 0; # Assign the 0,0 entry of the V matrix
@@ -50,28 +52,38 @@ for ($j = 1; $j <= $m; $j++) {
     print OUT "$string2[$j - 1]";
 }
 
+print OUT "\n";
+
 for ($i = 1; $i <= $n; $i++) { # follow the recurrences to fill in the V matrix.
     for ($j = 1; $j <= $m; $j++) {
         #   print OUT "$string1[$i-1], $string2[$j-1]\n"; # This is here  for debugging purposes.
         if ($string1[$i - 1] eq $string2[$j - 1]) {
-            $t = 1;}
-        else {
             # modification
-            $t = 0;
+            $t = $match_value;}
+        elsif ($string1[$i - 1] eq ' ' or $string2[$j - 1] eq ' ') {
+            $t = $indel_cost;
+        }
+        else {
+            $t = $mismatch_cost;
             # end of modification
         }
 
         $max = $V[$i - 1][$j - 1] + $t;
+
+
         #  print OUT "For $i, $j, t is $t \n"; # Another debugging line.
         if ($max < $V[$i][$j - 1] - 1) {
+
             $max = $V[$i][$j - 1] - 1;
         }
 
         if ($V[$i - 1][$j] - 1 > $max) {
+
             $max = $V[$i - 1][$j] - 1;
         }
         $V[$i][$j] = $max;
-        print OUT "V[$i][$j] has value $V[$i][$j]\n";
+        print OUT "V[$i][$j] has value $V[$i][$j]\n"; #原本应该释放这个
+
     }
 }
 print OUT "\n The similarity value of the two strings is $V[$n][$m]\n";
