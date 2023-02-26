@@ -12,6 +12,10 @@ $mismatch_cost = <>;
 print "> Input indel cost: \n";
 $indel_cost = <>;
 # end of modification
+my $open_space_cost = -1;
+my $extend_space_cost = -0.5;
+# INTERNAL VARIABLE
+
 
 open(OUT, '> outer'); #Open a file called 'outer' for outputing.
 print "Input string 1 \n";
@@ -54,6 +58,21 @@ for ($j = 1; $j <= $m; $j++) {
 
 print OUT "\n";
 
+
+# gap handle
+for (my $a = 1; $a <= $i; $a++) {
+    if ($max < $V[$i-$a][$j] + $open_space_cost - $extend_space_cost*($a-1)) {
+        $max = $V[$i-$a][$j] + $open_space_cost - $extend_space_cost*($a-1)
+    }
+}
+
+for (my $a = 1; $a <= $j; $a++) {
+    if ($max < $V[$i][$j-$a] + $open_space_cost - $extend_space_cost*($a-1)) {
+        $max = $V[$i][$j-$a] + $open_space_cost - $extend_space_cost*($a-1)
+    }
+}
+# end of handle
+
 for ($i = 1; $i <= $n; $i++) { # follow the recurrences to fill in the V matrix.
     for ($j = 1; $j <= $m; $j++) {
         #   print OUT "$string1[$i-1], $string2[$j-1]\n"; # This is here  for debugging purposes.
@@ -86,6 +105,7 @@ for ($i = 1; $i <= $n; $i++) { # follow the recurrences to fill in the V matrix.
 
     }
 }
+
 print OUT "\n The similarity value of the two strings is $V[$n][$m]\n";
 
 close(OUT);
