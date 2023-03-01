@@ -1,0 +1,109 @@
+#!/pkg/bin/perl -w
+# Program kmer1.pl
+# #Here we try to find all the k-mers of a string. It
+# only finds non-overlapping ones, but later it will
+# be modified to find the overlapping ones as well.
+# dg
+
+$dnastring = <>;
+print "What length k-mer?\n";
+$k = <>;  
+chomp $k; # without this, the next line finds no matches.
+while ($dnastring =~ m/(.{$k})/g) {   # notice the /g in the regular expression
+ print "$1 \n";
+}
+
+
+
+#!/pkg/bin/perl -w
+# Program kmer2.pl
+# Extension of kmer1.pl
+# This finds and prints all the overlapping k-mers of the input string.
+# dg
+
+print "Input the string\n";
+$dna = <>;
+chomp $dna;
+print "Input the length of the window\n"; 
+$k = <>;
+chomp $k;
+
+while (length($dna) >= $k) {
+$dna =~ m/(.{$k})/; 
+print "$1 \n";
+$dna = substr($dna, 1, length($dna) -1); #this removes the first character in the current $dna
+}
+
+
+
+#!/pkg/bin/perl -w
+# Program kmer3.pl
+# Extension of kmer2.pl
+# This finds all the overlapping k-mers of the input string. It builds
+# an associative array (a hash) where each key is one distinct k-mer in the string,
+# and the associated value is the last starting position where that
+# k-mer is found. For example, if the input is ACACTCA and k is 2, then
+# one key is AC with  value 3; another key is CA with value 6;
+# another key is CT with value 4; and one key is TC with value 5.
+# dg
+
+print "Input the string\n";
+$dna = <>;
+chomp $dna;
+print "Input the length of the window\n"; 
+$k = <>;
+chomp $k;
+
+%kmer = ();   # this initializes an empty hash called kmer.
+$i = 1;
+while (length($dna) >= $k) {
+  $dna =~ m/(.{$k})/; 
+  print "$1, $i \n";
+  $kmer{$1} = $i;   # hash the key $1 into the hash called kmer, and set the value there to $i.
+  $i++;
+  $dna = substr($dna, 1, length($dna) -1); #this removes the first character of the current $dna
+}
+
+foreach $kmerkey (keys(%kmer)) {
+print "The last occurrence of string $kmerkey is in position 
+$kmer{$kmerkey}\n";
+}
+
+
+#!/pkg/bin/perl -w
+# Program kmerfirst.pl
+# This program finds all the overlapping k-mers of the input string. It builds
+# an associative array where each key is one distinct k-mer in the string,
+# and the associated value is the starting position where that
+#k-mer is FIRST found.  Compare this to kmer2.pl
+
+print "Input the string\n";
+$dna = <>;
+chomp $dna;
+print "Input the length of the window\n"; 
+$k = <>;
+chomp $k;
+
+%kmer = ();                      # This initializes the hash called kmer.
+$i = 1;
+while (length($dna) >= $k) {
+  $dna =~ m/(.{$k})/; 
+  print "$1, $i \n";
+   if (! defined $kmer{$1}) {     #defined is a function that returns true
+                                  # if a value has already been assigned to
+                                  # $kmer{$1}, otherwise it returns false. 
+                                  # the ! character is the negation, so
+                                  # if $kmer{$1} has no value, then it will
+                                  # be assigned the value of $i, the position
+                                  # where the k-mer is first found.
+    $kmer{$1} = $i;       
+   }
+ $i++;
+  $dna = substr($dna, 1, length($dna) -1);
+}
+
+foreach $kmerkey (keys(%kmer)) {
+ print "The first occurrence of string $kmerkey is in position 
+ $kmer{$kmerkey}\n";
+}
+

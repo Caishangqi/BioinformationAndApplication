@@ -1,0 +1,2521 @@
+﻿G:/Perl/perl/bin/perl.exe "O:/H/UC Davis 主要专业/生物信息 ECS 124/course-project/Lab3/exercise-3/PERL_BLAST_ARRAY.pl"
+string is mkvlwaallvtflagcqakveqavetepepelrqqtewqsgqrwelalgrfwdylrwvqt
+DEBUG: eqav + 21
+DEBUG: current cache_array =  0, 21
+DEBUG: hashtable value =  ARRAY(0xf06888)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: avet + 23
+DEBUG: current cache_array =  0, 23
+DEBUG: hashtable value =  ARRAY(0xee5ff8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lrwv + 55
+DEBUG: current cache_array =  0, 55
+DEBUG: hashtable value =  ARRAY(0xee60d0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: flag + 12
+DEBUG: current cache_array =  0, 12
+DEBUG: hashtable value =  ARRAY(0xee6610)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: wqsg + 38
+DEBUG: current cache_array =  0, 38
+DEBUG: hashtable value =  ARRAY(0xee68f8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lgrf + 48
+DEBUG: current cache_array =  0, 48
+DEBUG: hashtable value =  ARRAY(0xee67d8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: ylrw + 54
+DEBUG: current cache_array =  0, 54
+DEBUG: hashtable value =  ARRAY(0xee6850)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: vtfl + 10
+DEBUG: current cache_array =  0, 10
+DEBUG: hashtable value =  ARRAY(0xee6898)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: qsgq + 39
+DEBUG: current cache_array =  0, 39
+DEBUG: hashtable value =  ARRAY(0xee6790)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: ewqs + 37
+DEBUG: current cache_array =  0, 37
+DEBUG: hashtable value =  ARRAY(0xee6370)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: allv + 7
+DEBUG: current cache_array =  0, 7
+DEBUG: hashtable value =  ARRAY(0xee6670)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: gcqa + 15
+DEBUG: current cache_array =  0, 15
+DEBUG: hashtable value =  ARRAY(0xee5c20)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: gqrw + 41
+DEBUG: current cache_array =  0, 41
+DEBUG: hashtable value =  ARRAY(0xee6778)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rfwd + 50
+DEBUG: current cache_array =  0, 50
+DEBUG: hashtable value =  ARRAY(0xee6550)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: fwdy + 51
+DEBUG: current cache_array =  0, 51
+DEBUG: hashtable value =  ARRAY(0xee62b0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: llvt + 8
+DEBUG: current cache_array =  0, 8
+DEBUG: hashtable value =  ARRAY(0xee6250)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: grfw + 49
+DEBUG: current cache_array =  0, 49
+DEBUG: hashtable value =  ARRAY(0xee6538)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: qrwe + 42
+DEBUG: current cache_array =  0, 42
+DEBUG: hashtable value =  ARRAY(0xee61d8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: epel + 29
+DEBUG: current cache_array =  0, 29
+DEBUG: hashtable value =  ARRAY(0xee5c38)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lalg + 46
+DEBUG: current cache_array =  0, 46
+DEBUG: hashtable value =  ARRAY(0xee5b90)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: etep + 25
+DEBUG: current cache_array =  0, 25
+DEBUG: hashtable value =  ARRAY(0xf060a8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: kveq + 19
+DEBUG: current cache_array =  0, 19
+DEBUG: hashtable value =  ARRAY(0xf06048)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lagc + 13
+DEBUG: current cache_array =  0, 13
+DEBUG: hashtable value =  ARRAY(0xf06030)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: dylr + 53
+DEBUG: current cache_array =  0, 53
+DEBUG: hashtable value =  ARRAY(0xf06000)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: tfla + 11
+DEBUG: current cache_array =  0, 11
+DEBUG: hashtable value =  ARRAY(0xf06138)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: qave + 22
+DEBUG: current cache_array =  0, 22
+DEBUG: hashtable value =  ARRAY(0xf060d8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: kvlw + 2
+DEBUG: current cache_array =  0, 2
+DEBUG: hashtable value =  ARRAY(0xf061e0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: elrq + 31
+DEBUG: current cache_array =  0, 31
+DEBUG: hashtable value =  ARRAY(0xf06168)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: tepe + 26
+DEBUG: current cache_array =  0, 26
+DEBUG: hashtable value =  ARRAY(0xf06948)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: waal + 5
+DEBUG: current cache_array =  0, 5
+DEBUG: hashtable value =  ARRAY(0xf06990)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: sgqr + 40
+DEBUG: current cache_array =  0, 40
+DEBUG: hashtable value =  ARRAY(0xf00418)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: pepe + 28
+DEBUG: current cache_array =  0, 28
+DEBUG: hashtable value =  ARRAY(0xf066c0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: epep + 27
+DEBUG: current cache_array =  0, 27
+DEBUG: hashtable value =  ARRAY(0xf06900)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: vete + 24
+DEBUG: current cache_array =  0, 24
+DEBUG: hashtable value =  ARRAY(0xf066d8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: qqte + 34
+DEBUG: current cache_array =  0, 34
+DEBUG: hashtable value =  ARRAY(0xf06318)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rwvq + 56
+DEBUG: current cache_array =  0, 56
+DEBUG: hashtable value =  ARRAY(0xf06558)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: wdyl + 52
+DEBUG: current cache_array =  0, 52
+DEBUG: hashtable value =  ARRAY(0xf06450)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: aall + 6
+DEBUG: current cache_array =  0, 6
+DEBUG: hashtable value =  ARRAY(0xf06750)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: algr + 47
+DEBUG: current cache_array =  0, 47
+DEBUG: hashtable value =  ARRAY(0xf06828)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: agcq + 14
+DEBUG: current cache_array =  0, 14
+DEBUG: hashtable value =  ARRAY(0xef1b48)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: cqak + 16
+DEBUG: current cache_array =  0, 16
+DEBUG: hashtable value =  ARRAY(0xef1ad0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: veqa + 20
+DEBUG: current cache_array =  0, 20
+DEBUG: hashtable value =  ARRAY(0xef1ab8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: pelr + 30
+DEBUG: current cache_array =  0, 30
+DEBUG: hashtable value =  ARRAY(0xef1a40)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lwaa + 4
+DEBUG: current cache_array =  0, 4
+DEBUG: hashtable value =  ARRAY(0xef1a28)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rqqt + 33
+DEBUG: current cache_array =  0, 33
+DEBUG: hashtable value =  ARRAY(0xef19b0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: qtew + 35
+DEBUG: current cache_array =  0, 35
+DEBUG: hashtable value =  ARRAY(0xef1998)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: wvqt + 57
+DEBUG: current cache_array =  0, 57
+DEBUG: hashtable value =  ARRAY(0xef1920)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: elal + 45
+DEBUG: current cache_array =  0, 45
+DEBUG: hashtable value =  ARRAY(0xef1908)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: akve + 18
+DEBUG: current cache_array =  0, 18
+DEBUG: hashtable value =  ARRAY(0xef1890)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rwel + 43
+DEBUG: current cache_array =  0, 43
+DEBUG: hashtable value =  ARRAY(0xef1878)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: mkvl + 1
+DEBUG: current cache_array =  0, 1
+DEBUG: hashtable value =  ARRAY(0xef1800)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lvtf + 9
+DEBUG: current cache_array =  0, 9
+DEBUG: hashtable value =  ARRAY(0xef17e8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: tewq + 36
+DEBUG: current cache_array =  0, 36
+DEBUG: hashtable value =  ARRAY(0xef1770)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: vlwa + 3
+DEBUG: current cache_array =  0, 3
+DEBUG: hashtable value =  ARRAY(0xef1758)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lrqq + 32
+DEBUG: current cache_array =  0, 32
+DEBUG: hashtable value =  ARRAY(0xef16e0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: wela + 44
+DEBUG: current cache_array =  0, 44
+DEBUG: hashtable value =  ARRAY(0xef16c8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: qakv + 17
+DEBUG: current cache_array =  0, 17
+DEBUG: hashtable value =  ARRAY(0xef1650)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+string is lseqvqeellssqvtqelralmdetmkelkaykseleeqltpvaeetrarlskelqaaqa
+
+DEBUG: vtqe + 14
+DEBUG: current cache_array =  1, 14
+DEBUG: hashtable value =  ARRAY(0xef1638)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: ltpv + 40
+DEBUG: current cache_array =  1, 40
+DEBUG: hashtable value =  ARRAY(0xef1170)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rarl + 48
+DEBUG: current cache_array =  1, 48
+DEBUG: hashtable value =  ARRAY(0xee5fc8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: eetr + 45
+DEBUG: current cache_array =  1, 45
+DEBUG: hashtable value =  ARRAY(0xf00568)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lral + 18
+DEBUG: current cache_array =  1, 18
+DEBUG: hashtable value =  ARRAY(0xef13b0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: tmke + 25
+DEBUG: current cache_array =  1, 25
+DEBUG: hashtable value =  ARRAY(0xef1308)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: ksel + 33
+DEBUG: current cache_array =  1, 33
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: arls + 49
+DEBUG: current cache_array =  1, 49
+DEBUG: hashtable value =  ARRAY(0xef1428)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lkay + 29
+DEBUG: current cache_array =  1, 29
+DEBUG: hashtable value =  ARRAY(0xf06360)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lqaa + 55
+DEBUG: current cache_array =  1, 55
+DEBUG: hashtable value =  ARRAY(0xef12f0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: mdet + 22
+DEBUG: current cache_array =  1, 22
+DEBUG: hashtable value =  ARRAY(0xef0ff0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: kelq + 53
+DEBUG: current cache_array =  1, 53
+DEBUG: hashtable value =  ARRAY(0xef1188)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: kelk + 27
+DEBUG: current cache_array =  1, 27
+DEBUG: hashtable value =  ARRAY(0xef0d68)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: sqvt + 12
+DEBUG: current cache_array =  1, 12
+DEBUG: hashtable value =  ARRAY(0xf00640)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: eell + 7
+DEBUG: current cache_array =  1, 7
+DEBUG: hashtable value =  ARRAY(0xef1008)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: qaaq + 56
+DEBUG: current cache_array =  1, 56
+DEBUG: hashtable value =  ARRAY(0xef1350)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: qelr + 16
+DEBUG: current cache_array =  1, 16
+DEBUG: hashtable value =  ARRAY(0xf05d00)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: tpva + 41
+DEBUG: current cache_array =  1, 41
+DEBUG: hashtable value =  ARRAY(0xef0f90)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: tqel + 15
+DEBUG: current cache_array =  1, 15
+DEBUG: hashtable value =  ARRAY(0xee6220)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: ssqv + 11
+DEBUG: current cache_array =  1, 11
+DEBUG: hashtable value =  ARRAY(0xee6580)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: leeq + 36
+DEBUG: current cache_array =  1, 36
+DEBUG: hashtable value =  ARRAY(0xee6640)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: eqvq + 3
+DEBUG: current cache_array =  1, 3
+DEBUG: hashtable value =  ARRAY(0xef1458)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lssq + 10
+DEBUG: current cache_array =  1, 10
+DEBUG: hashtable value =  ARRAY(0xef1530)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lmde + 21
+DEBUG: current cache_array =  1, 21
+DEBUG: hashtable value =  ARRAY(0xef15a8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: eeql + 37
+DEBUG: current cache_array =  1, 37
+DEBUG: hashtable value =  ARRAY(0xee6178)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: elee + 35
+DEBUG: current cache_array =  1, 35
+DEBUG: hashtable value =  ARRAY(0xf49c68)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: sele + 34
+DEBUG: current cache_array =  1, 34
+DEBUG: hashtable value =  ARRAY(0xf49c08)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rlsk + 50
+DEBUG: current cache_array =  1, 50
+DEBUG: hashtable value =  ARRAY(0xf49bd8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: elka + 28
+DEBUG: current cache_array =  1, 28
+DEBUG: hashtable value =  ARRAY(0xf49b60)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: qeel + 6
+DEBUG: current cache_array =  1, 6
+DEBUG: hashtable value =  ARRAY(0xf49b78)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: ells + 8
+DEBUG: current cache_array =  1, 8
+DEBUG: hashtable value =  ARRAY(0xf49b00)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: detm + 23
+DEBUG: current cache_array =  1, 23
+DEBUG: hashtable value =  ARRAY(0xf49ae8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: aeet + 44
+DEBUG: current cache_array =  1, 44
+DEBUG: hashtable value =  ARRAY(0xf4da90)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: eqlt + 38
+DEBUG: current cache_array =  1, 38
+DEBUG: hashtable value =  ARRAY(0xf4da60)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: kayk + 30
+DEBUG: current cache_array =  1, 30
+DEBUG: hashtable value =  ARRAY(0xf4da30)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: ayks + 31
+DEBUG: current cache_array =  1, 31
+DEBUG: hashtable value =  ARRAY(0xf2a5b8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: elra + 17
+DEBUG: current cache_array =  1, 17
+DEBUG: hashtable value =  ARRAY(0xf2a540)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: pvae + 42
+DEBUG: current cache_array =  1, 42
+DEBUG: hashtable value =  ARRAY(0xf4a220)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: skel + 52
+DEBUG: current cache_array =  1, 52
+DEBUG: hashtable value =  ARRAY(0xf4a268)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: vaee + 43
+DEBUG: current cache_array =  1, 43
+DEBUG: hashtable value =  ARRAY(0xf4a2b0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: llss + 9
+DEBUG: current cache_array =  1, 9
+DEBUG: hashtable value =  ARRAY(0xf4a2f8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: almd + 20
+DEBUG: current cache_array =  1, 20
+DEBUG: hashtable value =  ARRAY(0xf4a340)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: ykse + 32
+DEBUG: current cache_array =  1, 32
+DEBUG: hashtable value =  ARRAY(0xf4a388)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: etmk + 24
+DEBUG: current cache_array =  1, 24
+DEBUG: hashtable value =  ARRAY(0xf4a3d0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: qltp + 39
+DEBUG: current cache_array =  1, 39
+DEBUG: hashtable value =  ARRAY(0xf4a418)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: seqv + 2
+DEBUG: current cache_array =  1, 2
+DEBUG: hashtable value =  ARRAY(0xf4a460)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: elqa + 54
+DEBUG: current cache_array =  1, 54
+DEBUG: hashtable value =  ARRAY(0xf4a4a8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: qvtq + 13
+DEBUG: current cache_array =  1, 13
+DEBUG: hashtable value =  ARRAY(0xf4a4f0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: aaqa + 57
+DEBUG: current cache_array =  1, 57
+DEBUG: hashtable value =  ARRAY(0xf4a538)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: ralm + 19
+DEBUG: current cache_array =  1, 19
+DEBUG: hashtable value =  ARRAY(0xf4a580)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: mkel + 26
+DEBUG: current cache_array =  1, 26
+DEBUG: hashtable value =  ARRAY(0xf4a5c8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lseq + 1
+DEBUG: current cache_array =  1, 1
+DEBUG: hashtable value =  ARRAY(0xf4a610)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: vqee + 5
+DEBUG: current cache_array =  1, 5
+DEBUG: hashtable value =  ARRAY(0xf4a658)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: etra + 46
+DEBUG: current cache_array =  1, 46
+DEBUG: hashtable value =  ARRAY(0xf4a6a0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: qvqe + 4
+DEBUG: current cache_array =  1, 4
+DEBUG: hashtable value =  ARRAY(0xf4a6e8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+string is rlgadvlashgrlvqyrgevqamlgqsteelrvrlashlrklrkrllrvlashqkrlavy
+
+DEBUG: grlv + 11
+DEBUG: current cache_array =  2, 11
+DEBUG: hashtable value =  ARRAY(0xf4a730)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rklr + 40
+DEBUG: current cache_array =  2, 40
+DEBUG: hashtable value =  ARRAY(0xf05c88)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: amlg + 22
+DEBUG: current cache_array =  2, 22
+DEBUG: hashtable value =  ARRAY(0xf05e98)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: ashl + 36
+DEBUG: current cache_array =  2, 36
+DEBUG: hashtable value =  ARRAY(0xf05d60)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lrkr + 42
+DEBUG: current cache_array =  2, 42
+DEBUG: hashtable value =  ARRAY(0xf05fa0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: evqa + 19
+DEBUG: current cache_array =  2, 19
+DEBUG: hashtable value =  ARRAY(0xf05c58)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lgad + 2
+DEBUG: current cache_array =  2, 2
+DEBUG: hashtable value =  ARRAY(0xf05e50)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lavy + 57
+DEBUG: current cache_array =  2, 57
+DEBUG: hashtable value =  ARRAY(0xf05be0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rgev + 17
+DEBUG: current cache_array =  2, 17
+DEBUG: hashtable value =  ARRAY(0xf05b80)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: gevq + 18
+DEBUG: current cache_array =  2, 18
+DEBUG: hashtable value =  ARRAY(0xf05f58)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: qkrl + 54
+DEBUG: current cache_array =  2, 54
+DEBUG: hashtable value =  ARRAY(0xf05ca0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lgqs + 24
+DEBUG: current cache_array =  2, 24
+DEBUG: hashtable value =  ARRAY(0xf05e08)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: stee + 27
+DEBUG: current cache_array =  2, 27
+DEBUG: hashtable value =  ARRAY(0xf05e68)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lrvr + 31
+DEBUG: current cache_array =  2, 31
+DEBUG: hashtable value =  ARRAY(0xf05f70)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: vrla + 33
+DEBUG: current cache_array =  2, 33
+DEBUG: hashtable value =  ARRAY(0xf05f40)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rvla + 48
+DEBUG: current cache_array =  2, 48
+DEBUG: hashtable value =  ARRAY(0xf05da8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: ashq + 51
+DEBUG: current cache_array =  2, 51
+DEBUG: hashtable value =  ARRAY(0xf05e20)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rvrl + 32
+DEBUG: current cache_array =  2, 32
+DEBUG: hashtable value =  ARRAY(0xf05f10)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: vqam + 20
+DEBUG: current cache_array =  2, 20
+DEBUG: hashtable value =  ARRAY(0xf05d30)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: dvla + 5
+DEBUG: current cache_array =  2, 5
+DEBUG: hashtable value =  ARRAY(0xf063d8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lrvl + 47
+DEBUG: current cache_array =  2, 47
+DEBUG: hashtable value =  ARRAY(0xf4a7a8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: krll + 44
+DEBUG: current cache_array =  2, 44
+DEBUG: hashtable value =  ARRAY(0xf4a7f0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lrkl + 39
+DEBUG: current cache_array =  2, 39
+DEBUG: hashtable value =  ARRAY(0xf49ef0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: qyrg + 15
+DEBUG: current cache_array =  2, 15
+DEBUG: hashtable value =  ARRAY(0xf4a8c8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: hqkr + 53
+DEBUG: current cache_array =  2, 53
+DEBUG: hashtable value =  ARRAY(0xf4a880)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: llrv + 46
+DEBUG: current cache_array =  2, 46
+DEBUG: hashtable value =  ARRAY(0xf4a8f8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rlvq + 12
+DEBUG: current cache_array =  2, 12
+DEBUG: hashtable value =  ARRAY(0xf4a808)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: shlr + 37
+DEBUG: current cache_array =  2, 37
+DEBUG: hashtable value =  ARRAY(0xf4a9e8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: qaml + 21
+DEBUG: current cache_array =  2, 21
+DEBUG: hashtable value =  ARRAY(0xf4aa60)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: mlgq + 23
+DEBUG: current cache_array =  2, 23
+DEBUG: hashtable value =  ARRAY(0xf4aa30)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: advl + 4
+DEBUG: current cache_array =  2, 4
+DEBUG: hashtable value =  ARRAY(0xf4a958)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lvqy + 13
+DEBUG: current cache_array =  2, 13
+DEBUG: hashtable value =  ARRAY(0xf4a9b8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: ashg + 8
+DEBUG: current cache_array =  2, 8
+DEBUG: hashtable value =  ARRAY(0xf4aba0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: qste + 26
+DEBUG: current cache_array =  2, 26
+DEBUG: hashtable value =  ARRAY(0xf4abe8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: shqk + 52
+DEBUG: current cache_array =  2, 52
+DEBUG: hashtable value =  ARRAY(0xf4aa90)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: shgr + 9
+DEBUG: current cache_array =  2, 9
+DEBUG: hashtable value =  ARRAY(0xf4ab58)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: eelr + 29
+DEBUG: current cache_array =  2, 29
+DEBUG: hashtable value =  ARRAY(0xf4aaf8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: vqyr + 14
+DEBUG: current cache_array =  2, 14
+DEBUG: hashtable value =  ARRAY(0xf4b140)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: elrv + 30
+DEBUG: current cache_array =  2, 30
+DEBUG: hashtable value =  ARRAY(0xf4b188)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: hlrk + 38
+DEBUG: current cache_array =  2, 38
+DEBUG: hashtable value =  ARRAY(0xf4b1d0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: yrge + 16
+DEBUG: current cache_array =  2, 16
+DEBUG: hashtable value =  ARRAY(0xf4b218)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: klrk + 41
+DEBUG: current cache_array =  2, 41
+DEBUG: hashtable value =  ARRAY(0xf4b260)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rlav + 56
+DEBUG: current cache_array =  2, 56
+DEBUG: hashtable value =  ARRAY(0xf4b2a8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rkrl + 43
+DEBUG: current cache_array =  2, 43
+DEBUG: hashtable value =  ARRAY(0xf4b2f0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: vlas + 6
+DEBUG: current cache_array =  2, 6
+DEBUG: hashtable value =  ARRAY(0xf4b338)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rlga + 1
+DEBUG: current cache_array =  2, 1
+DEBUG: hashtable value =  ARRAY(0xf4b380)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: krla + 55
+DEBUG: current cache_array =  2, 55
+DEBUG: hashtable value =  ARRAY(0xf4b3c8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: gqst + 25
+DEBUG: current cache_array =  2, 25
+DEBUG: hashtable value =  ARRAY(0xf4b410)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: gadv + 3
+DEBUG: current cache_array =  2, 3
+DEBUG: hashtable value =  ARRAY(0xf4b458)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: teel + 28
+DEBUG: current cache_array =  2, 28
+DEBUG: hashtable value =  ARRAY(0xf4b4a0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: hgrl + 10
+DEBUG: current cache_array =  2, 10
+DEBUG: hashtable value =  ARRAY(0xf4b4e8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rllr + 45
+DEBUG: current cache_array =  2, 45
+DEBUG: hashtable value =  ARRAY(0xf4b530)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rlas + 34
+DEBUG: current cache_array =  2, 34
+DEBUG: hashtable value =  ARRAY(0xf4b578)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lash + 7
+DEBUG: current cache_array =  2, 7
+DEBUG: hashtable value =  ARRAY(0xf4b5c0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+string is qagaregaerglsairerlgplveqgrvraatvgslagqplqeraqawgerlrarmeemg
+
+DEBUG: aatv + 30
+DEBUG: current cache_array =  3, 30
+DEBUG: hashtable value =  ARRAY(0xf4b608)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rega + 5
+DEBUG: current cache_array =  3, 5
+DEBUG: hashtable value =  ARRAY(0xf49ec0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: eraq + 43
+DEBUG: current cache_array =  3, 43
+DEBUG: hashtable value =  ARRAY(0xf49e60)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: tvgs + 32
+DEBUG: current cache_array =  3, 32
+DEBUG: hashtable value =  ARRAY(0xf49e00)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: qawg + 46
+DEBUG: current cache_array =  3, 46
+DEBUG: hashtable value =  ARRAY(0xf49fc8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: veqg + 23
+DEBUG: current cache_array =  3, 23
+DEBUG: hashtable value =  ARRAY(0xf49da0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: irer + 15
+DEBUG: current cache_array =  3, 15
+DEBUG: hashtable value =  ARRAY(0xf4a010)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: eemg + 57
+DEBUG: current cache_array =  3, 57
+DEBUG: hashtable value =  ARRAY(0xf49ce0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: meem + 56
+DEBUG: current cache_array =  3, 56
+DEBUG: hashtable value =  ARRAY(0xf49e18)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: gaer + 7
+DEBUG: current cache_array =  3, 7
+DEBUG: hashtable value =  ARRAY(0xf49c98)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: agqp + 37
+DEBUG: current cache_array =  3, 37
+DEBUG: hashtable value =  ARRAY(0xf4a118)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: vraa + 28
+DEBUG: current cache_array =  3, 28
+DEBUG: hashtable value =  ARRAY(0xf49db8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: gerl + 49
+DEBUG: current cache_array =  3, 49
+DEBUG: hashtable value =  ARRAY(0xf4aca8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: glsa + 11
+DEBUG: current cache_array =  3, 11
+DEBUG: hashtable value =  ARRAY(0xf4a190)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: raqa + 44
+DEBUG: current cache_array =  3, 44
+DEBUG: hashtable value =  ARRAY(0xf4a028)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: vgsl + 33
+DEBUG: current cache_array =  3, 33
+DEBUG: hashtable value =  ARRAY(0xf4acd8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: erlr + 50
+DEBUG: current cache_array =  3, 50
+DEBUG: hashtable value =  ARRAY(0xf49d10)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: qplq + 39
+DEBUG: current cache_array =  3, 39
+DEBUG: hashtable value =  ARRAY(0xf4a070)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: arme + 54
+DEBUG: current cache_array =  3, 54
+DEBUG: hashtable value =  ARRAY(0xf49e90)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lveq + 22
+DEBUG: current cache_array =  3, 22
+DEBUG: hashtable value =  ARRAY(0xf49cc8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rlgp + 18
+DEBUG: current cache_array =  3, 18
+DEBUG: hashtable value =  ARRAY(0xf4b7a0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: aerg + 8
+DEBUG: current cache_array =  3, 8
+DEBUG: hashtable value =  ARRAY(0xf4b728)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: gplv + 20
+DEBUG: current cache_array =  3, 20
+DEBUG: hashtable value =  ARRAY(0xf4b740)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: eqgr + 24
+DEBUG: current cache_array =  3, 24
+DEBUG: hashtable value =  ARRAY(0xf4b6f8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rmee + 55
+DEBUG: current cache_array =  3, 55
+DEBUG: hashtable value =  ARRAY(0xf4b920)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: erlg + 17
+DEBUG: current cache_array =  3, 17
+DEBUG: hashtable value =  ARRAY(0xf4b968)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: qaga + 1
+DEBUG: current cache_array =  3, 1
+DEBUG: hashtable value =  ARRAY(0xf4b998)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: agar + 2
+DEBUG: current cache_array =  3, 2
+DEBUG: hashtable value =  ARRAY(0xf4b8a8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rgls + 10
+DEBUG: current cache_array =  3, 10
+DEBUG: hashtable value =  ARRAY(0xf4b830)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: plve + 21
+DEBUG: current cache_array =  3, 21
+DEBUG: hashtable value =  ARRAY(0xf4b878)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: areg + 4
+DEBUG: current cache_array =  3, 4
+DEBUG: hashtable value =  ARRAY(0xf4b818)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: awge + 47
+DEBUG: current cache_array =  3, 47
+DEBUG: hashtable value =  ARRAY(0xf4ba10)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rlra + 51
+DEBUG: current cache_array =  3, 51
+DEBUG: hashtable value =  ARRAY(0xf4ba58)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: gare + 3
+DEBUG: current cache_array =  3, 3
+DEBUG: hashtable value =  ARRAY(0xf4b9e0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: raat + 29
+DEBUG: current cache_array =  3, 29
+DEBUG: hashtable value =  ARRAY(0xf52c50)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: slag + 35
+DEBUG: current cache_array =  3, 35
+DEBUG: hashtable value =  ARRAY(0xf52bd8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lsai + 12
+DEBUG: current cache_array =  3, 12
+DEBUG: hashtable value =  ARRAY(0xf52c08)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: qera + 42
+DEBUG: current cache_array =  3, 42
+DEBUG: hashtable value =  ARRAY(0xf4baa0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lagq + 36
+DEBUG: current cache_array =  3, 36
+DEBUG: hashtable value =  ARRAY(0xf52b90)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: aire + 14
+DEBUG: current cache_array =  3, 14
+DEBUG: hashtable value =  ARRAY(0xf53238)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lgpl + 19
+DEBUG: current cache_array =  3, 19
+DEBUG: hashtable value =  ARRAY(0xf53280)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: atvg + 31
+DEBUG: current cache_array =  3, 31
+DEBUG: hashtable value =  ARRAY(0xf532c8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rvra + 27
+DEBUG: current cache_array =  3, 27
+DEBUG: hashtable value =  ARRAY(0xf53310)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: plqe + 40
+DEBUG: current cache_array =  3, 40
+DEBUG: hashtable value =  ARRAY(0xf53358)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: wger + 48
+DEBUG: current cache_array =  3, 48
+DEBUG: hashtable value =  ARRAY(0xf533a0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: ergl + 9
+DEBUG: current cache_array =  3, 9
+DEBUG: hashtable value =  ARRAY(0xf533e8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: grvr + 26
+DEBUG: current cache_array =  3, 26
+DEBUG: hashtable value =  ARRAY(0xf53430)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: qgrv + 25
+DEBUG: current cache_array =  3, 25
+DEBUG: hashtable value =  ARRAY(0xf53478)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: egae + 6
+DEBUG: current cache_array =  3, 6
+DEBUG: hashtable value =  ARRAY(0xf534c0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lqer + 41
+DEBUG: current cache_array =  3, 41
+DEBUG: hashtable value =  ARRAY(0xf53508)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: sair + 13
+DEBUG: current cache_array =  3, 13
+DEBUG: hashtable value =  ARRAY(0xf53550)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: gqpl + 38
+DEBUG: current cache_array =  3, 38
+DEBUG: hashtable value =  ARRAY(0xf53598)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: aqaw + 45
+DEBUG: current cache_array =  3, 45
+DEBUG: hashtable value =  ARRAY(0xf535e0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rerl + 16
+DEBUG: current cache_array =  3, 16
+DEBUG: hashtable value =  ARRAY(0xf53628)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lrar + 52
+DEBUG: current cache_array =  3, 52
+DEBUG: hashtable value =  ARRAY(0xf53670)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rarm + 53
+DEBUG: current cache_array =  3, 53
+DEBUG: hashtable value =  ARRAY(0xf536b8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: gsla + 34
+DEBUG: current cache_array =  3, 34
+DEBUG: hashtable value =  ARRAY(0xf53700)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+string is srtrdrldevkeqvaevrakleeqaqqirlvlashqarlkswfeplvedmqrqwaglvek
+DEBUG: trdr + 3
+DEBUG: current cache_array =  4, 3
+DEBUG: hashtable value =  ARRAY(0xf53748)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rdrl + 4
+DEBUG: current cache_array =  4, 4
+DEBUG: hashtable value =  ARRAY(0xf4ac00)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: eeqa + 22
+DEBUG: current cache_array =  4, 22
+DEBUG: hashtable value =  ARRAY(0xf4b698)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: plve + 45
+this kmer plve exist in hashtable so added to the kmer key~
+==========================================================
+The multiple value in hash is: ARRAY(0xf4b878)
+right now hash table length is: BEFORE: 1, AFTER: 1
+==========================================================
+DEBUG: vrak + 17
+DEBUG: current cache_array =  4, 17
+DEBUG: hashtable value =  ARRAY(0xf4b080)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: aglv + 55
+DEBUG: current cache_array =  4, 55
+DEBUG: hashtable value =  ARRAY(0xf4aee8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: qirl + 27
+DEBUG: current cache_array =  4, 27
+DEBUG: hashtable value =  ARRAY(0xf4b0c8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rakl + 18
+DEBUG: current cache_array =  4, 18
+DEBUG: hashtable value =  ARRAY(0xf4ad68)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: devk + 8
+DEBUG: current cache_array =  4, 8
+DEBUG: hashtable value =  ARRAY(0xf4b668)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: fepl + 43
+DEBUG: current cache_array =  4, 43
+DEBUG: hashtable value =  ARRAY(0xf4b008)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: kswf + 40
+DEBUG: current cache_array =  4, 40
+DEBUG: hashtable value =  ARRAY(0xf4aeb8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: edmq + 48
+DEBUG: current cache_array =  4, 48
+DEBUG: hashtable value =  ARRAY(0xf4ac18)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: vaev + 14
+DEBUG: current cache_array =  4, 14
+DEBUG: hashtable value =  ARRAY(0xf4b050)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lved + 46
+DEBUG: current cache_array =  4, 46
+DEBUG: hashtable value =  ARRAY(0xf4af90)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rqwa + 52
+DEBUG: current cache_array =  4, 52
+DEBUG: hashtable value =  ARRAY(0xf4afa8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: qqir + 26
+DEBUG: current cache_array =  4, 26
+DEBUG: hashtable value =  ARRAY(0xf4ac48)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: vkeq + 10
+DEBUG: current cache_array =  4, 10
+DEBUG: hashtable value =  ARRAY(0xf4b020)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: aevr + 15
+DEBUG: current cache_array =  4, 15
+DEBUG: hashtable value =  ARRAY(0xf4b680)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: hqar + 35
+DEBUG: current cache_array =  4, 35
+DEBUG: hashtable value =  ARRAY(0xf4af78)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: qvae + 13
+DEBUG: current cache_array =  4, 13
+DEBUG: hashtable value =  ARRAY(0xf4ad80)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: qwag + 53
+DEBUG: current cache_array =  4, 53
+DEBUG: hashtable value =  ARRAY(0xf4acf0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: swfe + 41
+DEBUG: current cache_array =  4, 41
+DEBUG: hashtable value =  ARRAY(0xf53928)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: vlas + 31
+this kmer vlas exist in hashtable so added to the kmer key~
+==========================================================
+The multiple value in hash is: ARRAY(0xf4b338)
+right now hash table length is: BEFORE: 1, AFTER: 1
+==========================================================
+DEBUG: eqaq + 23
+DEBUG: current cache_array =  4, 23
+DEBUG: hashtable value =  ARRAY(0xf538c8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: irlv + 28
+DEBUG: current cache_array =  4, 28
+DEBUG: hashtable value =  ARRAY(0xf4b0b0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: eqva + 12
+DEBUG: current cache_array =  4, 12
+DEBUG: hashtable value =  ARRAY(0xf539b8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: ldev + 7
+DEBUG: current cache_array =  4, 7
+DEBUG: hashtable value =  ARRAY(0xf53970)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: leeq + 21
+this kmer leeq exist in hashtable so added to the kmer key~
+==========================================================
+The multiple value in hash is: ARRAY(0xee6640)
+right now hash table length is: BEFORE: 1, AFTER: 1
+==========================================================
+DEBUG: aqqi + 25
+DEBUG: current cache_array =  4, 25
+DEBUG: hashtable value =  ARRAY(0xf53a60)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rtrd + 2
+DEBUG: current cache_array =  4, 2
+DEBUG: hashtable value =  ARRAY(0xf53a00)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: akle + 19
+DEBUG: current cache_array =  4, 19
+DEBUG: hashtable value =  ARRAY(0xf4a040)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lash + 32
+this kmer lash exist in hashtable so added to the kmer key~
+==========================================================
+The multiple value in hash is: ARRAY(0xf4b5c0)
+right now hash table length is: BEFORE: 1, AFTER: 1
+==========================================================
+DEBUG: arlk + 37
+DEBUG: current cache_array =  4, 37
+DEBUG: hashtable value =  ARRAY(0xf53808)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: glve + 56
+DEBUG: current cache_array =  4, 56
+DEBUG: hashtable value =  ARRAY(0xf537c0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lvla + 30
+DEBUG: current cache_array =  4, 30
+DEBUG: hashtable value =  ARRAY(0xf53880)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: mqrq + 50
+DEBUG: current cache_array =  4, 50
+DEBUG: hashtable value =  ARRAY(0xf53c48)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lksw + 39
+DEBUG: current cache_array =  4, 39
+DEBUG: hashtable value =  ARRAY(0xf53c78)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: dmqr + 49
+DEBUG: current cache_array =  4, 49
+DEBUG: hashtable value =  ARRAY(0xf53ca8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rlvl + 29
+DEBUG: current cache_array =  4, 29
+DEBUG: hashtable value =  ARRAY(0xf53aa8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rlks + 38
+DEBUG: current cache_array =  4, 38
+DEBUG: hashtable value =  ARRAY(0xf53af0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: drld + 5
+DEBUG: current cache_array =  4, 5
+DEBUG: hashtable value =  ARRAY(0xf53b88)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: srtr + 1
+DEBUG: current cache_array =  4, 1
+DEBUG: hashtable value =  ARRAY(0xf53b70)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: qarl + 36
+DEBUG: current cache_array =  4, 36
+DEBUG: hashtable value =  ARRAY(0xf53bd0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: vedm + 47
+DEBUG: current cache_array =  4, 47
+DEBUG: hashtable value =  ARRAY(0xf54278)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: lvek + 57
+DEBUG: current cache_array =  4, 57
+DEBUG: hashtable value =  ARRAY(0xf542c0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: ashq + 33
+this kmer ashq exist in hashtable so added to the kmer key~
+==========================================================
+The multiple value in hash is: ARRAY(0xf05e20)
+right now hash table length is: BEFORE: 1, AFTER: 1
+==========================================================
+DEBUG: qrqw + 51
+DEBUG: current cache_array =  4, 51
+DEBUG: hashtable value =  ARRAY(0xf54308)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: wagl + 54
+DEBUG: current cache_array =  4, 54
+DEBUG: hashtable value =  ARRAY(0xf53868)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: shqa + 34
+DEBUG: current cache_array =  4, 34
+DEBUG: hashtable value =  ARRAY(0xf54398)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: evra + 16
+DEBUG: current cache_array =  4, 16
+DEBUG: hashtable value =  ARRAY(0xf543e0)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: klee + 20
+DEBUG: current cache_array =  4, 20
+DEBUG: hashtable value =  ARRAY(0xf54428)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: evke + 9
+DEBUG: current cache_array =  4, 9
+DEBUG: hashtable value =  ARRAY(0xf54470)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: keqv + 11
+DEBUG: current cache_array =  4, 11
+DEBUG: hashtable value =  ARRAY(0xf544b8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: qaqq + 24
+DEBUG: current cache_array =  4, 24
+DEBUG: hashtable value =  ARRAY(0xf54500)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: rlde + 6
+DEBUG: current cache_array =  4, 6
+DEBUG: hashtable value =  ARRAY(0xf54548)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: wfep + 42
+DEBUG: current cache_array =  4, 42
+DEBUG: hashtable value =  ARRAY(0xf54590)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: eplv + 44
+DEBUG: current cache_array =  4, 44
+DEBUG: hashtable value =  ARRAY(0xf545d8)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+right now hash table length is: 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+pelr => DEBUG: record in print section is: ARRAY(0xef1a40)
+DEBUG: type is:
+(ARRAY(0xef1a40), )
+eraq => DEBUG: record in print section is: ARRAY(0xf49e60)
+DEBUG: type is:
+(ARRAY(0xf49e60), )
+rlks => DEBUG: record in print section is: ARRAY(0xf53af0)
+DEBUG: type is:
+(ARRAY(0xf53af0), )
+aatv => DEBUG: record in print section is: ARRAY(0xf4b608)
+DEBUG: type is:
+(ARRAY(0xf4b608), )
+dmqr => DEBUG: record in print section is: ARRAY(0xf53ca8)
+DEBUG: type is:
+(ARRAY(0xf53ca8), )
+skel => DEBUG: record in print section is: ARRAY(0xf4a268)
+DEBUG: type is:
+(ARRAY(0xf4a268), )
+meem => DEBUG: record in print section is: ARRAY(0xf49e18)
+DEBUG: type is:
+(ARRAY(0xf49e18), )
+lksw => DEBUG: record in print section is: ARRAY(0xf53c78)
+DEBUG: type is:
+(ARRAY(0xf53c78), )
+agcq => DEBUG: record in print section is: ARRAY(0xef1b48)
+DEBUG: type is:
+(ARRAY(0xef1b48), )
+glve => DEBUG: record in print section is: ARRAY(0xf537c0)
+DEBUG: type is:
+(ARRAY(0xf537c0), )
+tvgs => DEBUG: record in print section is: ARRAY(0xf49e00)
+DEBUG: type is:
+(ARRAY(0xf49e00), )
+llrv => DEBUG: record in print section is: ARRAY(0xf4a8f8)
+DEBUG: type is:
+(ARRAY(0xf4a8f8), )
+qvtq => DEBUG: record in print section is: ARRAY(0xf4a4f0)
+DEBUG: type is:
+(ARRAY(0xf4a4f0), )
+raqa => DEBUG: record in print section is: ARRAY(0xf4a028)
+DEBUG: type is:
+(ARRAY(0xf4a028), )
+qltp => DEBUG: record in print section is: ARRAY(0xf4a418)
+DEBUG: type is:
+(ARRAY(0xf4a418), )
+eplv => DEBUG: record in print section is: ARRAY(0xf545d8)
+DEBUG: type is:
+(ARRAY(0xf545d8), )
+lvtf => DEBUG: record in print section is: ARRAY(0xef17e8)
+DEBUG: type is:
+(ARRAY(0xef17e8), )
+qyrg => DEBUG: record in print section is: ARRAY(0xf4a8c8)
+DEBUG: type is:
+(ARRAY(0xf4a8c8), )
+mkel => DEBUG: record in print section is: ARRAY(0xf4a5c8)
+DEBUG: type is:
+(ARRAY(0xf4a5c8), )
+ralm => DEBUG: record in print section is: ARRAY(0xf4a580)
+DEBUG: type is:
+(ARRAY(0xf4a580), )
+mkvl => DEBUG: record in print section is: ARRAY(0xef1800)
+DEBUG: type is:
+(ARRAY(0xef1800), )
+aerg => DEBUG: record in print section is: ARRAY(0xf4b728)
+DEBUG: type is:
+(ARRAY(0xf4b728), )
+wagl => DEBUG: record in print section is: ARRAY(0xf53868)
+DEBUG: type is:
+(ARRAY(0xf53868), )
+vqam => DEBUG: record in print section is: ARRAY(0xf05d30)
+DEBUG: type is:
+(ARRAY(0xf05d30), )
+rvrl => DEBUG: record in print section is: ARRAY(0xf05f10)
+DEBUG: type is:
+(ARRAY(0xf05f10), )
+lveq => DEBUG: record in print section is: ARRAY(0xf49cc8)
+DEBUG: type is:
+(ARRAY(0xf49cc8), )
+arme => DEBUG: record in print section is: ARRAY(0xf49e90)
+DEBUG: type is:
+(ARRAY(0xf49e90), )
+rgls => DEBUG: record in print section is: ARRAY(0xf4b830)
+DEBUG: type is:
+(ARRAY(0xf4b830), )
+trar => DEBUG: record in print section is: ARRAY(0xef0d50)
+DEBUG: type is:
+(ARRAY(0xef0d50), )
+ksel => DEBUG: record in print section is: ARRAY(0xf063c0)
+DEBUG: type is:
+(ARRAY(0xf063c0), )
+yrge => DEBUG: record in print section is: ARRAY(0xf4b218)
+DEBUG: type is:
+(ARRAY(0xf4b218), )
+tmke => DEBUG: record in print section is: ARRAY(0xef1308)
+DEBUG: type is:
+(ARRAY(0xef1308), )
+rfwd => DEBUG: record in print section is: ARRAY(0xee6550)
+DEBUG: type is:
+(ARRAY(0xee6550), )
+grfw => DEBUG: record in print section is: ARRAY(0xee6538)
+DEBUG: type is:
+(ARRAY(0xee6538), )
+qqir => DEBUG: record in print section is: ARRAY(0xf4ac48)
+DEBUG: type is:
+(ARRAY(0xf4ac48), )
+vkeq => DEBUG: record in print section is: ARRAY(0xf4b020)
+DEBUG: type is:
+(ARRAY(0xf4b020), )
+rmee => DEBUG: record in print section is: ARRAY(0xf4b920)
+DEBUG: type is:
+(ARRAY(0xf4b920), )
+devk => DEBUG: record in print section is: ARRAY(0xf4b668)
+DEBUG: type is:
+(ARRAY(0xf4b668), )
+qste => DEBUG: record in print section is: ARRAY(0xf4abe8)
+DEBUG: type is:
+(ARRAY(0xf4abe8), )
+eelr => DEBUG: record in print section is: ARRAY(0xf4aaf8)
+DEBUG: type is:
+(ARRAY(0xf4aaf8), )
+avet => DEBUG: record in print section is: ARRAY(0xee5ff8)
+DEBUG: type is:
+(ARRAY(0xee5ff8), )
+eqav => DEBUG: record in print section is: ARRAY(0xf06888)
+DEBUG: type is:
+(ARRAY(0xf06888), )
+rdrl => DEBUG: record in print section is: ARRAY(0xf4ac00)
+DEBUG: type is:
+(ARRAY(0xf4ac00), )
+aglv => DEBUG: record in print section is: ARRAY(0xf4aee8)
+DEBUG: type is:
+(ARRAY(0xf4aee8), )
+lske => DEBUG: record in print section is: ARRAY(0xef1488)
+DEBUG: type is:
+(ARRAY(0xef1488), )
+qirl => DEBUG: record in print section is: ARRAY(0xf4b0c8)
+DEBUG: type is:
+(ARRAY(0xf4b0c8), )
+qsgq => DEBUG: record in print section is: ARRAY(0xee6790)
+DEBUG: type is:
+(ARRAY(0xee6790), )
+rlas => DEBUG: record in print section is: ARRAY(0xf4b578)
+DEBUG: type is:
+(ARRAY(0xf4b578), )
+qaaq => DEBUG: record in print section is: ARRAY(0xef1350)
+DEBUG: type is:
+(ARRAY(0xef1350), )
+eell => DEBUG: record in print section is: ARRAY(0xef1008)
+DEBUG: type is:
+(ARRAY(0xef1008), )
+waal => DEBUG: record in print section is: ARRAY(0xf06990)
+DEBUG: type is:
+(ARRAY(0xf06990), )
+kvlw => DEBUG: record in print section is: ARRAY(0xf061e0)
+DEBUG: type is:
+(ARRAY(0xf061e0), )
+elrq => DEBUG: record in print section is: ARRAY(0xf06168)
+DEBUG: type is:
+(ARRAY(0xf06168), )
+epep => DEBUG: record in print section is: ARRAY(0xf06900)
+DEBUG: type is:
+(ARRAY(0xf06900), )
+rllr => DEBUG: record in print section is: ARRAY(0xf4b530)
+DEBUG: type is:
+(ARRAY(0xf4b530), )
+gadv => DEBUG: record in print section is: ARRAY(0xf4b458)
+DEBUG: type is:
+(ARRAY(0xf4b458), )
+irlv => DEBUG: record in print section is: ARRAY(0xf4b0b0)
+DEBUG: type is:
+(ARRAY(0xf4b0b0), )
+rarm => DEBUG: record in print section is: ARRAY(0xf536b8)
+DEBUG: type is:
+(ARRAY(0xf536b8), )
+aqqi => DEBUG: record in print section is: ARRAY(0xf53a60)
+DEBUG: type is:
+(ARRAY(0xf53a60), )
+lalg => DEBUG: record in print section is: ARRAY(0xee5b90)
+DEBUG: type is:
+(ARRAY(0xee5b90), )
+qvae => DEBUG: record in print section is: ARRAY(0xf4ad80)
+DEBUG: type is:
+(ARRAY(0xf4ad80), )
+rlga => DEBUG: record in print section is: ARRAY(0xf4b380)
+DEBUG: type is:
+(ARRAY(0xf4b380), )
+gqpl => DEBUG: record in print section is: ARRAY(0xf53598)
+DEBUG: type is:
+(ARRAY(0xf53598), )
+grvr => DEBUG: record in print section is: ARRAY(0xf53430)
+DEBUG: type is:
+(ARRAY(0xf53430), )
+rega => DEBUG: record in print section is: ARRAY(0xf49ec0)
+DEBUG: type is:
+(ARRAY(0xf49ec0), )
+vrla => DEBUG: record in print section is: ARRAY(0xf05f40)
+DEBUG: type is:
+(ARRAY(0xf05f40), )
+drld => DEBUG: record in print section is: ARRAY(0xf53b88)
+DEBUG: type is:
+(ARRAY(0xf53b88), )
+stee => DEBUG: record in print section is: ARRAY(0xf05e68)
+DEBUG: type is:
+(ARRAY(0xf05e68), )
+eeql => DEBUG: record in print section is: ARRAY(0xee6178)
+DEBUG: type is:
+(ARRAY(0xee6178), )
+lmde => DEBUG: record in print section is: ARRAY(0xef15a8)
+DEBUG: type is:
+(ARRAY(0xef15a8), )
+lssq => DEBUG: record in print section is: ARRAY(0xef1530)
+DEBUG: type is:
+(ARRAY(0xef1530), )
+elka => DEBUG: record in print section is: ARRAY(0xf49b60)
+DEBUG: type is:
+(ARRAY(0xf49b60), )
+elee => DEBUG: record in print section is: ARRAY(0xf49c68)
+DEBUG: type is:
+(ARRAY(0xf49c68), )
+mqrq => DEBUG: record in print section is: ARRAY(0xf53c48)
+DEBUG: type is:
+(ARRAY(0xf53c48), )
+lgad => DEBUG: record in print section is: ARRAY(0xf05e50)
+DEBUG: type is:
+(ARRAY(0xf05e50), )
+lvla => DEBUG: record in print section is: ARRAY(0xf53880)
+DEBUG: type is:
+(ARRAY(0xf53880), )
+eemg => DEBUG: record in print section is: ARRAY(0xf49ce0)
+DEBUG: type is:
+(ARRAY(0xf49ce0), )
+irer => DEBUG: record in print section is: ARRAY(0xf4a010)
+DEBUG: type is:
+(ARRAY(0xf4a010), )
+llss => DEBUG: record in print section is: ARRAY(0xf4a2f8)
+DEBUG: type is:
+(ARRAY(0xf4a2f8), )
+veqg => DEBUG: record in print section is: ARRAY(0xf49da0)
+DEBUG: type is:
+(ARRAY(0xf49da0), )
+amlg => DEBUG: record in print section is: ARRAY(0xf05e98)
+DEBUG: type is:
+(ARRAY(0xf05e98), )
+aeet => DEBUG: record in print section is: ARRAY(0xf4da90)
+DEBUG: type is:
+(ARRAY(0xf4da90), )
+grlv => DEBUG: record in print section is: ARRAY(0xf4a730)
+DEBUG: type is:
+(ARRAY(0xf4a730), )
+pvae => DEBUG: record in print section is: ARRAY(0xf4a220)
+DEBUG: type is:
+(ARRAY(0xf4a220), )
+ayks => DEBUG: record in print section is: ARRAY(0xf2a5b8)
+DEBUG: type is:
+(ARRAY(0xf2a5b8), )
+shlr => DEBUG: record in print section is: ARRAY(0xf4a9e8)
+DEBUG: type is:
+(ARRAY(0xf4a9e8), )
+lrqq => DEBUG: record in print section is: ARRAY(0xef16e0)
+DEBUG: type is:
+(ARRAY(0xef16e0), )
+tewq => DEBUG: record in print section is: ARRAY(0xef1770)
+DEBUG: type is:
+(ARRAY(0xef1770), )
+aaqa => DEBUG: record in print section is: ARRAY(0xf4a538)
+DEBUG: type is:
+(ARRAY(0xf4a538), )
+gerl => DEBUG: record in print section is: ARRAY(0xf4aca8)
+DEBUG: type is:
+(ARRAY(0xf4aca8), )
+wfep => DEBUG: record in print section is: ARRAY(0xf54590)
+DEBUG: type is:
+(ARRAY(0xf54590), )
+hqkr => DEBUG: record in print section is: ARRAY(0xf4a880)
+DEBUG: type is:
+(ARRAY(0xf4a880), )
+klee => DEBUG: record in print section is: ARRAY(0xf54428)
+DEBUG: type is:
+(ARRAY(0xf54428), )
+gaer => DEBUG: record in print section is: ARRAY(0xf49c98)
+DEBUG: type is:
+(ARRAY(0xf49c98), )
+evke => DEBUG: record in print section is: ARRAY(0xf54470)
+DEBUG: type is:
+(ARRAY(0xf54470), )
+gplv => DEBUG: record in print section is: ARRAY(0xf4b740)
+DEBUG: type is:
+(ARRAY(0xf4b740), )
+vqee => DEBUG: record in print section is: ARRAY(0xf4a658)
+DEBUG: type is:
+(ARRAY(0xf4a658), )
+eetr => DEBUG: record in print section is: ARRAY(0xf00568)
+DEBUG: type is:
+(ARRAY(0xf00568), )
+hlrk => DEBUG: record in print section is: ARRAY(0xf4b1d0)
+DEBUG: type is:
+(ARRAY(0xf4b1d0), )
+hqar => DEBUG: record in print section is: ARRAY(0xf4af78)
+DEBUG: type is:
+(ARRAY(0xf4af78), )
+agar => DEBUG: record in print section is: ARRAY(0xf4b8a8)
+DEBUG: type is:
+(ARRAY(0xf4b8a8), )
+qrwe => DEBUG: record in print section is: ARRAY(0xee61d8)
+DEBUG: type is:
+(ARRAY(0xee61d8), )
+ltpv => DEBUG: record in print section is: ARRAY(0xef1170)
+DEBUG: type is:
+(ARRAY(0xef1170), )
+arls => DEBUG: record in print section is: ARRAY(0xef1428)
+DEBUG: type is:
+(ARRAY(0xef1428), )
+wqsg => DEBUG: record in print section is: ARRAY(0xee68f8)
+DEBUG: type is:
+(ARRAY(0xee68f8), )
+flag => DEBUG: record in print section is: ARRAY(0xee6610)
+DEBUG: type is:
+(ARRAY(0xee6610), )
+kswf => DEBUG: record in print section is: ARRAY(0xf4aeb8)
+DEBUG: type is:
+(ARRAY(0xf4aeb8), )
+edmq => DEBUG: record in print section is: ARRAY(0xf4ac18)
+DEBUG: type is:
+(ARRAY(0xf4ac18), )
+gare => DEBUG: record in print section is: ARRAY(0xf4b9e0)
+DEBUG: type is:
+(ARRAY(0xf4b9e0), )
+gqrw => DEBUG: record in print section is: ARRAY(0xee6778)
+DEBUG: type is:
+(ARRAY(0xee6778), )
+awge => DEBUG: record in print section is: ARRAY(0xf4ba10)
+DEBUG: type is:
+(ARRAY(0xf4ba10), )
+rakl => DEBUG: record in print section is: ARRAY(0xf4ad68)
+DEBUG: type is:
+(ARRAY(0xf4ad68), )
+areg => DEBUG: record in print section is: ARRAY(0xf4b818)
+DEBUG: type is:
+(ARRAY(0xf4b818), )
+plve => DEBUG: record in print section is: ARRAY(0xf4b878)
+DEBUG: type is:
+(ARRAY(0xf4b878), )
+wger => DEBUG: record in print section is: ARRAY(0xf533a0)
+DEBUG: type is:
+(ARRAY(0xf533a0), )
+sqvt => DEBUG: record in print section is: ARRAY(0xf00640)
+DEBUG: type is:
+(ARRAY(0xf00640), )
+lash => DEBUG: record in print section is: ARRAY(0xf4b5c0)
+DEBUG: type is:
+(ARRAY(0xf4b5c0), )
+qelr => DEBUG: record in print section is: ARRAY(0xf05d00)
+DEBUG: type is:
+(ARRAY(0xf05d00), )
+arlk => DEBUG: record in print section is: ARRAY(0xf53808)
+DEBUG: type is:
+(ARRAY(0xf53808), )
+mdet => DEBUG: record in print section is: ARRAY(0xef0ff0)
+DEBUG: type is:
+(ARRAY(0xef0ff0), )
+hgrl => DEBUG: record in print section is: ARRAY(0xf4b4e8)
+DEBUG: type is:
+(ARRAY(0xf4b4e8), )
+lgpl => DEBUG: record in print section is: ARRAY(0xf53280)
+DEBUG: type is:
+(ARRAY(0xf53280), )
+kelq => DEBUG: record in print section is: ARRAY(0xef1188)
+DEBUG: type is:
+(ARRAY(0xef1188), )
+akle => DEBUG: record in print section is: ARRAY(0xf4a040)
+DEBUG: type is:
+(ARRAY(0xf4a040), )
+eqva => DEBUG: record in print section is: ARRAY(0xf539b8)
+DEBUG: type is:
+(ARRAY(0xf539b8), )
+ssqv => DEBUG: record in print section is: ARRAY(0xee6580)
+DEBUG: type is:
+(ARRAY(0xee6580), )
+gsla => DEBUG: record in print section is: ARRAY(0xf53700)
+DEBUG: type is:
+(ARRAY(0xf53700), )
+epel => DEBUG: record in print section is: ARRAY(0xee5c38)
+DEBUG: type is:
+(ARRAY(0xee5c38), )
+rerl => DEBUG: record in print section is: ARRAY(0xf53628)
+DEBUG: type is:
+(ARRAY(0xf53628), )
+leeq => DEBUG: record in print section is: ARRAY(0xee6640)
+DEBUG: type is:
+(ARRAY(0xee6640), )
+krla => DEBUG: record in print section is: ARRAY(0xf4b3c8)
+DEBUG: type is:
+(ARRAY(0xf4b3c8), )
+tfla => DEBUG: record in print section is: ARRAY(0xf06138)
+DEBUG: type is:
+(ARRAY(0xf06138), )
+lqer => DEBUG: record in print section is: ARRAY(0xf53508)
+DEBUG: type is:
+(ARRAY(0xf53508), )
+qgrv => DEBUG: record in print section is: ARRAY(0xf53478)
+DEBUG: type is:
+(ARRAY(0xf53478), )
+dylr => DEBUG: record in print section is: ARRAY(0xf06000)
+DEBUG: type is:
+(ARRAY(0xf06000), )
+swfe => DEBUG: record in print section is: ARRAY(0xf53928)
+DEBUG: type is:
+(ARRAY(0xf53928), )
+rlav => DEBUG: record in print section is: ARRAY(0xf4b2a8)
+DEBUG: type is:
+(ARRAY(0xf4b2a8), )
+vlas => DEBUG: record in print section is: ARRAY(0xf4b338)
+DEBUG: type is:
+(ARRAY(0xf4b338), )
+ergl => DEBUG: record in print section is: ARRAY(0xf533e8)
+DEBUG: type is:
+(ARRAY(0xf533e8), )
+lgqs => DEBUG: record in print section is: ARRAY(0xf05e08)
+DEBUG: type is:
+(ARRAY(0xf05e08), )
+detm => DEBUG: record in print section is: ARRAY(0xf49ae8)
+DEBUG: type is:
+(ARRAY(0xf49ae8), )
+gevq => DEBUG: record in print section is: ARRAY(0xf05f58)
+DEBUG: type is:
+(ARRAY(0xf05f58), )
+rlvl => DEBUG: record in print section is: ARRAY(0xf53aa8)
+DEBUG: type is:
+(ARRAY(0xf53aa8), )
+qkrl => DEBUG: record in print section is: ARRAY(0xf05ca0)
+DEBUG: type is:
+(ARRAY(0xf05ca0), )
+eqvq => DEBUG: record in print section is: ARRAY(0xef1458)
+DEBUG: type is:
+(ARRAY(0xef1458), )
+rlsk => DEBUG: record in print section is: ARRAY(0xf49bd8)
+DEBUG: type is:
+(ARRAY(0xf49bd8), )
+vaee => DEBUG: record in print section is: ARRAY(0xf4a2b0)
+DEBUG: type is:
+(ARRAY(0xf4a2b0), )
+lavy => DEBUG: record in print section is: ARRAY(0xf05be0)
+DEBUG: type is:
+(ARRAY(0xf05be0), )
+ashl => DEBUG: record in print section is: ARRAY(0xf05d60)
+DEBUG: type is:
+(ARRAY(0xf05d60), )
+evqa => DEBUG: record in print section is: ARRAY(0xf05c58)
+DEBUG: type is:
+(ARRAY(0xf05c58), )
+rklr => DEBUG: record in print section is: ARRAY(0xf05c88)
+DEBUG: type is:
+(ARRAY(0xf05c88), )
+aall => DEBUG: record in print section is: ARRAY(0xf06750)
+DEBUG: type is:
+(ARRAY(0xf06750), )
+qawg => DEBUG: record in print section is: ARRAY(0xf49fc8)
+DEBUG: type is:
+(ARRAY(0xf49fc8), )
+kayk => DEBUG: record in print section is: ARRAY(0xf4da30)
+DEBUG: type is:
+(ARRAY(0xf4da30), )
+eqlt => DEBUG: record in print section is: ARRAY(0xf4da60)
+DEBUG: type is:
+(ARRAY(0xf4da60), )
+elqa => DEBUG: record in print section is: ARRAY(0xf4a4a8)
+DEBUG: type is:
+(ARRAY(0xf4a4a8), )
+vlwa => DEBUG: record in print section is: ARRAY(0xef1758)
+DEBUG: type is:
+(ARRAY(0xef1758), )
+glsa => DEBUG: record in print section is: ARRAY(0xf4a190)
+DEBUG: type is:
+(ARRAY(0xf4a190), )
+rlde => DEBUG: record in print section is: ARRAY(0xf54548)
+DEBUG: type is:
+(ARRAY(0xf54548), )
+qakv => DEBUG: record in print section is: ARRAY(0xef1650)
+DEBUG: type is:
+(ARRAY(0xef1650), )
+shqa => DEBUG: record in print section is: ARRAY(0xf54398)
+DEBUG: type is:
+(ARRAY(0xf54398), )
+keqv => DEBUG: record in print section is: ARRAY(0xf544b8)
+DEBUG: type is:
+(ARRAY(0xf544b8), )
+ykse => DEBUG: record in print section is: ARRAY(0xf4a388)
+DEBUG: type is:
+(ARRAY(0xf4a388), )
+almd => DEBUG: record in print section is: ARRAY(0xf4a340)
+DEBUG: type is:
+(ARRAY(0xf4a340), )
+wela => DEBUG: record in print section is: ARRAY(0xef16c8)
+DEBUG: type is:
+(ARRAY(0xef16c8), )
+qtew => DEBUG: record in print section is: ARRAY(0xef1998)
+DEBUG: type is:
+(ARRAY(0xef1998), )
+rqqt => DEBUG: record in print section is: ARRAY(0xef19b0)
+DEBUG: type is:
+(ARRAY(0xef19b0), )
+rwel => DEBUG: record in print section is: ARRAY(0xef1878)
+DEBUG: type is:
+(ARRAY(0xef1878), )
+rvla => DEBUG: record in print section is: ARRAY(0xf05da8)
+DEBUG: type is:
+(ARRAY(0xf05da8), )
+qrqw => DEBUG: record in print section is: ARRAY(0xf54308)
+DEBUG: type is:
+(ARRAY(0xf54308), )
+etra => DEBUG: record in print section is: ARRAY(0xf4a6a0)
+DEBUG: type is:
+(ARRAY(0xf4a6a0), )
+aevr => DEBUG: record in print section is: ARRAY(0xf4b680)
+DEBUG: type is:
+(ARRAY(0xf4b680), )
+elrv => DEBUG: record in print section is: ARRAY(0xf4b188)
+DEBUG: type is:
+(ARRAY(0xf4b188), )
+llvt => DEBUG: record in print section is: ARRAY(0xee6250)
+DEBUG: type is:
+(ARRAY(0xee6250), )
+shqk => DEBUG: record in print section is: ARRAY(0xf4aa90)
+DEBUG: type is:
+(ARRAY(0xf4aa90), )
+fepl => DEBUG: record in print section is: ARRAY(0xf4b008)
+DEBUG: type is:
+(ARRAY(0xf4b008), )
+ashg => DEBUG: record in print section is: ARRAY(0xf4aba0)
+DEBUG: type is:
+(ARRAY(0xf4aba0), )
+lsai => DEBUG: record in print section is: ARRAY(0xf52c08)
+DEBUG: type is:
+(ARRAY(0xf52c08), )
+slag => DEBUG: record in print section is: ARRAY(0xf52bd8)
+DEBUG: type is:
+(ARRAY(0xf52bd8), )
+raat => DEBUG: record in print section is: ARRAY(0xf52c50)
+DEBUG: type is:
+(ARRAY(0xf52c50), )
+allv => DEBUG: record in print section is: ARRAY(0xee6670)
+DEBUG: type is:
+(ARRAY(0xee6670), )
+gcqa => DEBUG: record in print section is: ARRAY(0xee5c20)
+DEBUG: type is:
+(ARRAY(0xee5c20), )
+trdr => DEBUG: record in print section is: ARRAY(0xf53748)
+DEBUG: type is:
+(ARRAY(0xf53748), )
+qaml => DEBUG: record in print section is: ARRAY(0xf4aa60)
+DEBUG: type is:
+(ARRAY(0xf4aa60), )
+rlra => DEBUG: record in print section is: ARRAY(0xf4ba58)
+DEBUG: type is:
+(ARRAY(0xf4ba58), )
+lvqy => DEBUG: record in print section is: ARRAY(0xf4a9b8)
+DEBUG: type is:
+(ARRAY(0xf4a9b8), )
+ewqs => DEBUG: record in print section is: ARRAY(0xee6370)
+DEBUG: type is:
+(ARRAY(0xee6370), )
+plqe => DEBUG: record in print section is: ARRAY(0xf53358)
+DEBUG: type is:
+(ARRAY(0xf53358), )
+rvra => DEBUG: record in print section is: ARRAY(0xf53310)
+DEBUG: type is:
+(ARRAY(0xf53310), )
+atvg => DEBUG: record in print section is: ARRAY(0xf532c8)
+DEBUG: type is:
+(ARRAY(0xf532c8), )
+kelk => DEBUG: record in print section is: ARRAY(0xef0d68)
+DEBUG: type is:
+(ARRAY(0xef0d68), )
+pepe => DEBUG: record in print section is: ARRAY(0xf066c0)
+DEBUG: type is:
+(ARRAY(0xf066c0), )
+ldev => DEBUG: record in print section is: ARRAY(0xf53970)
+DEBUG: type is:
+(ARRAY(0xf53970), )
+kveq => DEBUG: record in print section is: ARRAY(0xf06048)
+DEBUG: type is:
+(ARRAY(0xf06048), )
+aqaw => DEBUG: record in print section is: ARRAY(0xf535e0)
+DEBUG: type is:
+(ARRAY(0xf535e0), )
+qwag => DEBUG: record in print section is: ARRAY(0xf4acf0)
+DEBUG: type is:
+(ARRAY(0xf4acf0), )
+tpva => DEBUG: record in print section is: ARRAY(0xef0f90)
+DEBUG: type is:
+(ARRAY(0xef0f90), )
+eqaq => DEBUG: record in print section is: ARRAY(0xf538c8)
+DEBUG: type is:
+(ARRAY(0xf538c8), )
+lagc => DEBUG: record in print section is: ARRAY(0xf06030)
+DEBUG: type is:
+(ARRAY(0xf06030), )
+rkrl => DEBUG: record in print section is: ARRAY(0xf4b2f0)
+DEBUG: type is:
+(ARRAY(0xf4b2f0), )
+tqel => DEBUG: record in print section is: ARRAY(0xee6220)
+DEBUG: type is:
+(ARRAY(0xee6220), )
+lrvr => DEBUG: record in print section is: ARRAY(0xf05f70)
+DEBUG: type is:
+(ARRAY(0xf05f70), )
+veqa => DEBUG: record in print section is: ARRAY(0xef1ab8)
+DEBUG: type is:
+(ARRAY(0xef1ab8), )
+srtr => DEBUG: record in print section is: ARRAY(0xf53b70)
+DEBUG: type is:
+(ARRAY(0xf53b70), )
+ells => DEBUG: record in print section is: ARRAY(0xf49b00)
+DEBUG: type is:
+(ARRAY(0xf49b00), )
+cqak => DEBUG: record in print section is: ARRAY(0xef1ad0)
+DEBUG: type is:
+(ARRAY(0xef1ad0), )
+qeel => DEBUG: record in print section is: ARRAY(0xf49b78)
+DEBUG: type is:
+(ARRAY(0xf49b78), )
+sele => DEBUG: record in print section is: ARRAY(0xf49c08)
+DEBUG: type is:
+(ARRAY(0xf49c08), )
+rgev => DEBUG: record in print section is: ARRAY(0xf05b80)
+DEBUG: type is:
+(ARRAY(0xf05b80), )
+qqte => DEBUG: record in print section is: ARRAY(0xf06318)
+DEBUG: type is:
+(ARRAY(0xf06318), )
+rwvq => DEBUG: record in print section is: ARRAY(0xf06558)
+DEBUG: type is:
+(ARRAY(0xf06558), )
+lrkr => DEBUG: record in print section is: ARRAY(0xf05fa0)
+DEBUG: type is:
+(ARRAY(0xf05fa0), )
+algr => DEBUG: record in print section is: ARRAY(0xf06828)
+DEBUG: type is:
+(ARRAY(0xf06828), )
+wdyl => DEBUG: record in print section is: ARRAY(0xf06450)
+DEBUG: type is:
+(ARRAY(0xf06450), )
+elra => DEBUG: record in print section is: ARRAY(0xf2a540)
+DEBUG: type is:
+(ARRAY(0xf2a540), )
+rlvq => DEBUG: record in print section is: ARRAY(0xf4a808)
+DEBUG: type is:
+(ARRAY(0xf4a808), )
+seqv => DEBUG: record in print section is: ARRAY(0xf4a460)
+DEBUG: type is:
+(ARRAY(0xf4a460), )
+etmk => DEBUG: record in print section is: ARRAY(0xf4a3d0)
+DEBUG: type is:
+(ARRAY(0xf4a3d0), )
+lseq => DEBUG: record in print section is: ARRAY(0xf4a610)
+DEBUG: type is:
+(ARRAY(0xf4a610), )
+lrkl => DEBUG: record in print section is: ARRAY(0xf49ef0)
+DEBUG: type is:
+(ARRAY(0xf49ef0), )
+vraa => DEBUG: record in print section is: ARRAY(0xf49db8)
+DEBUG: type is:
+(ARRAY(0xf49db8), )
+agqp => DEBUG: record in print section is: ARRAY(0xf4a118)
+DEBUG: type is:
+(ARRAY(0xf4a118), )
+krll => DEBUG: record in print section is: ARRAY(0xf4a7f0)
+DEBUG: type is:
+(ARRAY(0xf4a7f0), )
+evra => DEBUG: record in print section is: ARRAY(0xf543e0)
+DEBUG: type is:
+(ARRAY(0xf543e0), )
+qaqq => DEBUG: record in print section is: ARRAY(0xf54500)
+DEBUG: type is:
+(ARRAY(0xf54500), )
+eqgr => DEBUG: record in print section is: ARRAY(0xf4b6f8)
+DEBUG: type is:
+(ARRAY(0xf4b6f8), )
+wvqt => DEBUG: record in print section is: ARRAY(0xef1920)
+DEBUG: type is:
+(ARRAY(0xef1920), )
+lrvl => DEBUG: record in print section is: ARRAY(0xf4a7a8)
+DEBUG: type is:
+(ARRAY(0xf4a7a8), )
+lwaa => DEBUG: record in print section is: ARRAY(0xef1a28)
+DEBUG: type is:
+(ARRAY(0xef1a28), )
+qvqe => DEBUG: record in print section is: ARRAY(0xf4a6e8)
+DEBUG: type is:
+(ARRAY(0xf4a6e8), )
+dvla => DEBUG: record in print section is: ARRAY(0xf063d8)
+DEBUG: type is:
+(ARRAY(0xf063d8), )
+rlgp => DEBUG: record in print section is: ARRAY(0xf4b7a0)
+DEBUG: type is:
+(ARRAY(0xf4b7a0), )
+lvek => DEBUG: record in print section is: ARRAY(0xf542c0)
+DEBUG: type is:
+(ARRAY(0xf542c0), )
+vedm => DEBUG: record in print section is: ARRAY(0xf54278)
+DEBUG: type is:
+(ARRAY(0xf54278), )
+qarl => DEBUG: record in print section is: ARRAY(0xf53bd0)
+DEBUG: type is:
+(ARRAY(0xf53bd0), )
+qplq => DEBUG: record in print section is: ARRAY(0xf4a070)
+DEBUG: type is:
+(ARRAY(0xf4a070), )
+akve => DEBUG: record in print section is: ARRAY(0xef1890)
+DEBUG: type is:
+(ARRAY(0xef1890), )
+erlr => DEBUG: record in print section is: ARRAY(0xf49d10)
+DEBUG: type is:
+(ARRAY(0xf49d10), )
+vgsl => DEBUG: record in print section is: ARRAY(0xf4acd8)
+DEBUG: type is:
+(ARRAY(0xf4acd8), )
+elal => DEBUG: record in print section is: ARRAY(0xef1908)
+DEBUG: type is:
+(ARRAY(0xef1908), )
+ashq => DEBUG: record in print section is: ARRAY(0xf05e20)
+DEBUG: type is:
+(ARRAY(0xf05e20), )
+klrk => DEBUG: record in print section is: ARRAY(0xf4b260)
+DEBUG: type is:
+(ARRAY(0xf4b260), )
+lral => DEBUG: record in print section is: ARRAY(0xef13b0)
+DEBUG: type is:
+(ARRAY(0xef13b0), )
+vtqe => DEBUG: record in print section is: ARRAY(0xef1638)
+DEBUG: type is:
+(ARRAY(0xef1638), )
+rarl => DEBUG: record in print section is: ARRAY(0xee5fc8)
+DEBUG: type is:
+(ARRAY(0xee5fc8), )
+qaga => DEBUG: record in print section is: ARRAY(0xf4b998)
+DEBUG: type is:
+(ARRAY(0xf4b998), )
+erlg => DEBUG: record in print section is: ARRAY(0xf4b968)
+DEBUG: type is:
+(ARRAY(0xf4b968), )
+fwdy => DEBUG: record in print section is: ARRAY(0xee62b0)
+DEBUG: type is:
+(ARRAY(0xee62b0), )
+shgr => DEBUG: record in print section is: ARRAY(0xf4ab58)
+DEBUG: type is:
+(ARRAY(0xf4ab58), )
+qera => DEBUG: record in print section is: ARRAY(0xf4baa0)
+DEBUG: type is:
+(ARRAY(0xf4baa0), )
+lgrf => DEBUG: record in print section is: ARRAY(0xee67d8)
+DEBUG: type is:
+(ARRAY(0xee67d8), )
+vqyr => DEBUG: record in print section is: ARRAY(0xf4b140)
+DEBUG: type is:
+(ARRAY(0xf4b140), )
+lrwv => DEBUG: record in print section is: ARRAY(0xee60d0)
+DEBUG: type is:
+(ARRAY(0xee60d0), )
+rqwa => DEBUG: record in print section is: ARRAY(0xf4afa8)
+DEBUG: type is:
+(ARRAY(0xf4afa8), )
+lkay => DEBUG: record in print section is: ARRAY(0xf06360)
+DEBUG: type is:
+(ARRAY(0xf06360), )
+vaev => DEBUG: record in print section is: ARRAY(0xf4b050)
+DEBUG: type is:
+(ARRAY(0xf4b050), )
+lved => DEBUG: record in print section is: ARRAY(0xf4af90)
+DEBUG: type is:
+(ARRAY(0xf4af90), )
+eeqa => DEBUG: record in print section is: ARRAY(0xf4b698)
+DEBUG: type is:
+(ARRAY(0xf4b698), )
+mlgq => DEBUG: record in print section is: ARRAY(0xf4aa30)
+DEBUG: type is:
+(ARRAY(0xf4aa30), )
+vrak => DEBUG: record in print section is: ARRAY(0xf4b080)
+DEBUG: type is:
+(ARRAY(0xf4b080), )
+vtfl => DEBUG: record in print section is: ARRAY(0xee6898)
+DEBUG: type is:
+(ARRAY(0xee6898), )
+ylrw => DEBUG: record in print section is: ARRAY(0xee6850)
+DEBUG: type is:
+(ARRAY(0xee6850), )
+advl => DEBUG: record in print section is: ARRAY(0xf4a958)
+DEBUG: type is:
+(ARRAY(0xf4a958), )
+tepe => DEBUG: record in print section is: ARRAY(0xf06948)
+DEBUG: type is:
+(ARRAY(0xf06948), )
+vete => DEBUG: record in print section is: ARRAY(0xf066d8)
+DEBUG: type is:
+(ARRAY(0xf066d8), )
+rtrd => DEBUG: record in print section is: ARRAY(0xf53a00)
+DEBUG: type is:
+(ARRAY(0xf53a00), )
+lqaa => DEBUG: record in print section is: ARRAY(0xef12f0)
+DEBUG: type is:
+(ARRAY(0xef12f0), )
+teel => DEBUG: record in print section is: ARRAY(0xf4b4a0)
+DEBUG: type is:
+(ARRAY(0xf4b4a0), )
+aire => DEBUG: record in print section is: ARRAY(0xf53238)
+DEBUG: type is:
+(ARRAY(0xf53238), )
+sgqr => DEBUG: record in print section is: ARRAY(0xf00418)
+DEBUG: type is:
+(ARRAY(0xf00418), )
+lagq => DEBUG: record in print section is: ARRAY(0xf52b90)
+DEBUG: type is:
+(ARRAY(0xf52b90), )
+gqst => DEBUG: record in print section is: ARRAY(0xf4b410)
+DEBUG: type is:
+(ARRAY(0xf4b410), )
+lrar => DEBUG: record in print section is: ARRAY(0xf53670)
+DEBUG: type is:
+(ARRAY(0xf53670), )
+etep => DEBUG: record in print section is: ARRAY(0xf060a8)
+DEBUG: type is:
+(ARRAY(0xf060a8), )
+qave => DEBUG: record in print section is: ARRAY(0xf060d8)
+DEBUG: type is:
+(ARRAY(0xf060d8), )
+sair => DEBUG: record in print section is: ARRAY(0xf53550)
+DEBUG: type is:
+(ARRAY(0xf53550), )
+egae => DEBUG: record in print section is: ARRAY(0xf534c0)
+DEBUG: type is:
+(ARRAY(0xf534c0), )
+
+Process finished with exit code 0
+
+

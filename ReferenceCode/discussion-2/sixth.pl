@@ -18,3 +18,19 @@ while($line = <infd>) #While there is a line to read from the input file
 }
 close(infd);
 close(outfd);
+
+use strict;
+my @arr = (
+	{ name => "aaa" , values => ["a1","a2"] },
+	{ name => "bbb" , values => ["b1","b2","b3"] }
+);
+
+
+foreach $a (@arr) {
+	my @cur_values = @{$a->{values}};
+	print("values of $a->{name}: ");
+	foreach $b (@cur_values){
+		print $b . ", "
+	}
+	print "\n";
+};
