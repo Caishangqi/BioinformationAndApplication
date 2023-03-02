@@ -43,14 +43,14 @@ sub scanString {
     my @first_string_location = $param_list[1];
 
     # 2 th parameter is for second string input
-    my $second_string = $param_list[3];
-    my @second_string_location = $param_list[4];
+    my $second_string = $param_list[2];
+    my @second_string_location = $param_list[3];
 
     # turn them ito array
     my @string_first_array = split(//, $first_string);
-    my $first_string_length = scalar(@string_first_array);
+    my $first_string_length = @string_first_array;
     my @string_second_array = split(//, $second_string);
-    my $second_string_length = scalar(@string_second_array);
+    my $second_string_length = @string_second_array;
 
     my $total_match = 4; # default 4-kmer value
 
@@ -62,13 +62,16 @@ sub scanString {
         $length_bound_pos = $second_string_location[0]; # 12
     }
 
-    print("Debug: $param_list[0]\n");
-    print("Debug: $param_list[3]\n");
+    #print("Debug: $param_list[1]\n"); # 6
+    #print("Debug: $param_list[3]\n"); # 15
 
 
     # now we first scan left
     for (my $current_pointer_shift = 1; $current_pointer_shift <= $length_bound_pos; $current_pointer_shift++) {
-        if (@string_first_array[$first_string_location[0] - $current_pointer_shift] eq $second_string_location[0] - $current_pointer_shift) {
+        #print("Debug: First left on string 1: @string_first_array[$first_string_location[0] - $current_pointer_shift - 1]\n");
+        #print("Debug: First left on string 2: @string_second_array[$second_string_location[0] - $current_pointer_shift - 1]\n");
+        if (@string_first_array[$first_string_location[0] - $current_pointer_shift - 1] eq @string_second_array[$second_string_location[0] - $current_pointer_shift - 1]) {
+
             $total_match++;
         }
         else {
@@ -78,7 +81,9 @@ sub scanString {
 
     # the we scan right
     for (my $current_pointer_shift = 4; $current_pointer_shift <= $length_bound - $length_bound_pos; $current_pointer_shift++) {
-        if (@string_first_array[$first_string_location[0] + $current_pointer_shift] eq $second_string_location[0] + $current_pointer_shift) {
+        #print("Debug: First right on string 1: @string_first_array[$first_string_location[0] + $current_pointer_shift - 1]\n");
+        #print("Debug: First right on string 2: @string_second_array[$second_string_location[0] + $current_pointer_shift - 1]\n");
+        if (@string_first_array[$first_string_location[0] + $current_pointer_shift - 1] eq @string_second_array[$second_string_location[0] + $current_pointer_shift - 1]) {
             $total_match++;
         }
         else {
@@ -91,11 +96,9 @@ sub scanString {
 
 sub hashTableToString {
     my $hash = shift;
-    foreach my $key (keys %{$hash})
-    {
+    foreach my $key (keys %{$hash}) {
         my $res;
-        for (@{$hash->{$key}})
-        {
+        for (@{$hash->{$key}}) {
             my $str = join(', ', @{$_});
             $res .= "[ $str ]";
         }
@@ -117,6 +120,8 @@ my $query_Q = <_FileQ>;
 # storage all S lines in to a list
 # all S data in a list
 my @data_s;
+my $threshold = 6;
+my $kmer = 4;
 
 # mkvlwaallvtflagcqakveqavetepepelrqqtewqsgqrwelalgrfwdylrwvqt
 #     lseqvqeellssqvtqelralmdetmkelkaykseleeqltpvaeetrarlskelqaaqa
@@ -131,22 +136,17 @@ while (my $line = <_FileS>) {
 # hash table build
 my %hash_table;
 
-for my $i (0 .. $#data_s)
-{
+for my $i (0 .. $#data_s) {
     # key: [...int]
     # lash: [7, 35, 50]
     my %kmers = findKmer($data_s[$i]);
 
-    while ((my $key, my $value) = each(%kmers))
-    {
-        for (@{$value})
-        {
-            if (!defined $hash_table{$key})
-            {
+    while ((my $key, my $value) = each(%kmers)) {
+        for (@{$value}) {
+            if (!defined $hash_table{$key}) {
                 $hash_table{$key} = [ [ $i, $_ ] ];
             }
-            else
-            {
+            else {
                 push(@{$hash_table{$key}}, [ $i, $_ ]);
             }
         }
@@ -186,16 +186,32 @@ foreach my $data_s (@data_s) {
 foreach my $hashTableKey (keys(%hash_table)) {
     $query_Q =~ m/($hashTableKey)/;
     if (defined $1) {
-        my $first_location_in_Q = index($query_Q, $1);
-        print("$1, located Q at: $first_location_in_Q\n");
+        my $first_location_in_Q = index($query_Q, $1) + 1;
+        #print("$1, located Q at: $first_location_in_Q\n");
         # find this kmer correspond location value on S hash table
         # kmer=> [2,7,35,50] , [4,32]
 
         my $length_of_location_array = @{$hash_table{$1}};
-        print("length of location array = $length_of_location_array\n");
+        #print("length of location array = $length_of_location_array\n");
+
+        # iteration inside of the value of hash
+        # [ [ 2, 7 ][ 2, 35 ][ 2, 50 ][ 4, 32 ] ]
+
+        foreach my $single_value (@{$hash_table{$1}}) {
+            # scanString(str1, str1pos, str2, str2pos)
+            my $max = scanString(@data_s[@{$single_value}[0]], @{$single_value}[1], $query_Q, $first_location_in_Q);
+            if ($max >= $threshold) {
+                print("(+) good HSP has been found with seed = $1 at S = @{$single_value}[0], location = @{$single_value}[1]\n");
+                print("(+) Actual length of HSP is $max \n")
+            }
+            # print( . "," . @{$single_value}[1], "\n");
+            #print("$max\n")
+        }
 
     }
+
 }
+
 
 # Then put the characters of Q and S in arrays (as we did in needleman.pl) so
 # that you can examine individual characters.
@@ -212,5 +228,6 @@ foreach my $hashTableKey (keys(%hash_table)) {
 # arg0 = "", arg1 = int , arg2 = "", arg3 = "", arg4 = int, arg5 = ""
 
 # print(scanString($query_Q, @location_Q, $string_S, @location_S));
+
 close(_FileQ);
 close(_FileS);
