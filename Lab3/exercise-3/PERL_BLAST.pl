@@ -274,16 +274,12 @@ foreach my $hashTableKey (keys(%hash_table)) {
                 print("(+) good HSP has been found with seed = $1 at S = @{$single_value}[0], location = @{$single_value}[1]\n");
                 print("(+) Actual length of HSP is @{$max}[0] \n");
 
-                #print @{$max}[1] ~~ @final_result;
-                my $cache = @{$max}[1];
-                # print("$cache\n");
-                if ($cache ~~ @final_result) {
 
-                }
-                else {
+                # print("$cache\n");
+                if (!(@{$max}[1].'' ~~ @final_result)) {
                     push(@final_result, @{$max}[1]);
-                    # print("PUSHED!\n")
                 }
+               
                 # 
                 # print("(!) @{$max}[1]\n");
 
