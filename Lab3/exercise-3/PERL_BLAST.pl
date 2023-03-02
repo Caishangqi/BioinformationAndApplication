@@ -12,15 +12,12 @@ sub findKmer {
     my %kmer = ();
     my $i = 1;
 
-    while (length($dna) >= $k)
-    {
+    while (length($dna) >= $k) {
         $dna =~ m/(.{$k})/;
-        if (!defined $kmer{$1})
-        {
+        if (!defined $kmer{$1}) {
             $kmer{$1} = [ $i ];
         }
-        else
-        {
+        else {
             push(@{$kmer{$1}}, $i)
         }
         $i++;
@@ -60,8 +57,7 @@ sub scanString {
 
     my $length_bound = $first_string_length;          # 38
     my $length_bound_pos = $first_string_location[0]; #29
-    if ($first_string_length >= $second_string_length)
-    {
+    if ($first_string_length >= $second_string_length) {
         $length_bound = $second_string_length;          # 60
         $length_bound_pos = $second_string_location[0]; # 12
     }
@@ -71,27 +67,21 @@ sub scanString {
 
 
     # now we first scan left
-    for (my $current_pointer_shift = 1; $current_pointer_shift <= $length_bound_pos; $current_pointer_shift++)
-    {
-        if (@string_first_array[$first_string_location[0] - $current_pointer_shift] eq $second_string_location[0] - $current_pointer_shift)
-        {
+    for (my $current_pointer_shift = 1; $current_pointer_shift <= $length_bound_pos; $current_pointer_shift++) {
+        if (@string_first_array[$first_string_location[0] - $current_pointer_shift] eq $second_string_location[0] - $current_pointer_shift) {
             $total_match++;
         }
-        else
-        {
+        else {
             last;
         }
     }
 
     # the we scan right
-    for (my $current_pointer_shift = 4; $current_pointer_shift <= $length_bound - $length_bound_pos; $current_pointer_shift++)
-    {
-        if (@string_first_array[$first_string_location[0] + $current_pointer_shift] eq $second_string_location[0] + $current_pointer_shift)
-        {
+    for (my $current_pointer_shift = 4; $current_pointer_shift <= $length_bound - $length_bound_pos; $current_pointer_shift++) {
+        if (@string_first_array[$first_string_location[0] + $current_pointer_shift] eq $second_string_location[0] + $current_pointer_shift) {
             $total_match++;
         }
-        else
-        {
+        else {
             last;
         }
     }
@@ -100,26 +90,17 @@ sub scanString {
 }
 
 sub hashTableToString {
-    my %parameter = @_;
-    foreach my $key (keys %parameter)
+    my $hash = shift;
+    foreach my $key (keys %{$hash})
     {
-        # ARRAY(0xffff) ARRAY(0xffff)
-        # OR
-        # ARRAY(0xffff)
-
-        # print "@{@{$hash_table{$key}}[0]} \n";
-        my @res;
-        for (@{$parameter{$key}})
+        my $res;
+        for (@{$hash->{$key}})
         {
-            my @arr = @{$_};
-            my $str = join(", ", @{$arr[1]});
-            push(@res, "[$arr[0], $str]");
-            # push(@res, "[$arr[0], $arr[1]]");
+            my $str = join(', ', @{$_});
+            $res .= "[ $str ]";
         }
-        print "$key " . join(", ", @res) . "\n";
-        # print "@{$hash_table{$key}}\n"
+        print "$key: [ $res ]\n";
     }
-
 }
 open _FileQ, "Q.txt";
 open _FileS, "S.txt";
@@ -143,8 +124,7 @@ my @data_s;
 #             qagaregaerglsairerlgplveqgrvraatvgslagqplqeraqawgerlrarmeemg
 #                 srtrdrldevkeqvaevrakleeqaqqirlvlashqarlkswfeplvedmqrqwaglvek
 
-while (my $line = <_FileS>)
-{
+while (my $line = <_FileS>) {
     push(@data_s, $line)
 }
 
@@ -154,22 +134,26 @@ my %hash_table;
 for my $i (0 .. $#data_s)
 {
     # key: [...int]
+    # lash: [7, 35, 50]
     my %kmers = findKmer($data_s[$i]);
 
     while ((my $key, my $value) = each(%kmers))
     {
-        if (!defined $hash_table{$key})
+        for (@{$value})
         {
-            $hash_table{$key} = [ [ $i, $value ] ];
-        }
-        else
-        {
-            push(@{$hash_table{$key}}, [ $i, $value ]);
+            if (!defined $hash_table{$key})
+            {
+                $hash_table{$key} = [ [ $i, $_ ] ];
+            }
+            else
+            {
+                push(@{$hash_table{$key}}, [ $i, $_ ]);
+            }
         }
     }
 }
 
-hashTableToString(%hash_table);
+hashTableToString(\%hash_table);
 
 # 模板 
 # foreach my $key (keys %hash_table) {
@@ -193,22 +177,25 @@ hashTableToString(%hash_table);
 
 my $all_S_in_line = "";
 # all S in one line
-foreach my $data_s (@data_s)
-{
+foreach my $data_s (@data_s) {
     $data_s =~ chomp $data_s;
     $all_S_in_line = $all_S_in_line . $data_s
 }
 
-# print("TOTAL S = $all_S_in_line\n");
-# print("\n");
-
-
 # 每当 S 中的 4-mer 被确定为在 Q 中时，提取该 4-mer 在 Q 中第一次出现的位置。
-# my %kmers_with_location_IN_Q = findKmerWithFirstLocation($query_Q);
-# while ((my $key, my $value) = each(%kmers_with_location_IN_Q))
-# {
-#     #print("($key,$value)\n")
-# }
+foreach my $hashTableKey (keys(%hash_table)) {
+    $query_Q =~ m/($hashTableKey)/;
+    if (defined $1) {
+        my $first_location_in_Q = index($query_Q, $1);
+        print("$1, located Q at: $first_location_in_Q\n");
+        # find this kmer correspond location value on S hash table
+        # kmer=> [2,7,35,50] , [4,32]
+
+        my $length_of_location_array = @{$hash_table{$1}};
+        print("length of location array = $length_of_location_array\n");
+
+    }
+}
 
 # Then put the characters of Q and S in arrays (as we did in needleman.pl) so
 # that you can examine individual characters.
