@@ -10,3 +10,7 @@ For the toy query sequence, use
 
 didyoseeasteelrvlashorwasitaflagthere
 
+
+vash =>s2,6 s4,31
+
+vash=> 
