@@ -1,0 +1,74 @@
+﻿FOR k = 4, t = 7
+(+) good HSP has been found with seed = elrv at S = 2, location = 30
+(+) Actual length of HSP is 7
+(+) good HSP has been found with seed = lrvl at S = 2, location = 47
+(+) Actual length of HSP is 7
+(+) good HSP has been found with seed = vlas at S = 2, location = 49
+(+) Actual length of HSP is 7
+(+) good HSP has been found with seed = teel at S = 2, location = 28
+(+) Actual length of HSP is 7
+(+) good HSP has been found with seed = eelr at S = 2, location = 29
+(+) Actual length of HSP is 7
+(+) good HSP has been found with seed = stee at S = 2, location = 27
+(+) Actual length of HSP is 7
+(+) good HSP has been found with seed = lash at S = 2, location = 50
+(+) Actual length of HSP is 7
+(+) good HSP has been found with seed = rvla at S = 2, location = 48
+(+) Actual length of HSP is 7
+FINAL RESULT IS: steelrv
+FINAL RESULT IS: lrvlash
+
+FOR k = 3, t = 7
+(+) good HSP has been found with seed = lrv at S = 2, location = 31
+(+) Actual length of HSP is 7
+(+) good HSP has been found with seed = ash at S = 2, location = 51
+(+) Actual length of HSP is 7
+FINAL RESULT IS: steelrv
+FINAL RESULT IS: lrvlash
+
+FOR k = 3, t = 6
+
+(+) good HSP has been found with seed = ash at S = 2, location = 51
+(+) Actual length of HSP is 7
+(+) good HSP has been found with seed = lrv at S = 2, location = 31
+(+) Actual length of HSP is 7
+(+) good HSP has been found with seed = lrv at S = 2, location = 47
+(+) Actual length of HSP is 7
+(+) good HSP has been found with seed = rvl at S = 2, location = 48
+(+) Actual length of HSP is 7
+(+) good HSP has been found with seed = tee at S = 2, location = 28
+(+) Actual length of HSP is 7
+(+) good HSP has been found with seed = ste at S = 2, location = 27
+(+) Actual length of HSP is 7
+(+) good HSP has been found with seed = las at S = 2, location = 50
+(+) Actual length of HSP is 7
+(+) good HSP has been found with seed = elr at S = 2, location = 30
+(+) Actual length of HSP is 7
+(+) good HSP has been found with seed = eel at S = 2, location = 29
+(+) Actual length of HSP is 7
+(+) good HSP has been found with seed = vla at S = 2, location = 49
+(+) Actual length of HSP is 7
+FINAL RESULT IS: lrvlash
+FINAL RESULT IS: steelrv
+
+
+FOR k = 4, t = 6
+(+) good HSP has been found with seed = eelr at S = 2, location = 29
+(+) Actual length of HSP is 7
+(+) good HSP has been found with seed = vlas at S = 2, location = 49
+(+) Actual length of HSP is 7
+(+) good HSP has been found with seed = elrv at S = 2, location = 30
+(+) Actual length of HSP is 7
+(+) good HSP has been found with seed = stee at S = 2, location = 27
+(+) Actual length of HSP is 7
+(+) good HSP has been found with seed = teel at S = 2, location = 28
+(+) Actual length of HSP is 7
+(+) good HSP has been found with seed = lash at S = 2, location = 50
+(+) Actual length of HSP is 7
+(+) good HSP has been found with seed = lrvl at S = 2, location = 47
+(+) Actual length of HSP is 7
+(+) good HSP has been found with seed = rvla at S = 2, location = 48
+(+) Actual length of HSP is 7
+FINAL RESULT IS: steelrv
+FINAL RESULT IS: lrvlash
+

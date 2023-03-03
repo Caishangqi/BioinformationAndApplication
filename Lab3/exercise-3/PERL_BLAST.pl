@@ -1,13 +1,16 @@
 ﻿#!/usr/bin/perl
 use warnings FATAL => 'deprecated';
 use strict;
+# global variable
+my $threshold = 6;
+my $kmer = 3;
 
 sub findKmer {
     my @param_list = @_;
     my $dna = $param_list[0];
     chomp $dna;
 
-    my $k = 4;
+    my $k = $kmer;
 
     my %kmer = ();
     my $i = 1;
@@ -52,7 +55,7 @@ sub scanString {
     my @string_second_array = split(//, $second_string);
     my $second_string_length = @string_second_array;
 
-    my $total_match = 4; # default 4-kmer value
+    my $total_match = $kmer; # default 4-kmer value
 
 
     my $length_bound = $first_string_length;          # 38
@@ -80,7 +83,7 @@ sub scanString {
     }
 
     # the we scan right
-    for (my $current_pointer_shift = 4; $current_pointer_shift <= $length_bound - $length_bound_pos; $current_pointer_shift++) {
+    for (my $current_pointer_shift = $kmer; $current_pointer_shift <= $length_bound - $length_bound_pos; $current_pointer_shift++) {
         #print("Debug: First right on string 1: @string_first_array[$first_string_location[0] + $current_pointer_shift - 1]\n");
         #print("Debug: First right on string 2: @string_second_array[$second_string_location[0] + $current_pointer_shift - 1]\n");
         if (@string_first_array[$first_string_location[0] + $current_pointer_shift - 1] eq @string_second_array[$second_string_location[0] + $current_pointer_shift - 1]) {
@@ -112,8 +115,8 @@ sub scanStringReturnString {
     my @string_second_array = split(//, $second_string);
     my $second_string_length = @string_second_array;
 
-    my $total_match = 4; # default 4-kmer value
-    my $kmer = $param_list[4];
+    my $total_match = $kmer; # default 4-kmer value
+    my $kmer_str = $param_list[4];
 
     my $length_bound = $first_string_length;          # 38
     my $length_bound_pos = $first_string_location[0]; #29
@@ -146,7 +149,7 @@ sub scanStringReturnString {
     $left_string = scalar reverse("$left_string");
 
     # the we scan right
-    for (my $current_pointer_shift = 4; $current_pointer_shift <= $length_bound - $length_bound_pos; $current_pointer_shift++) {
+    for (my $current_pointer_shift = $kmer; $current_pointer_shift <= $length_bound - $length_bound_pos; $current_pointer_shift++) {
         #print("Debug: First right on string 1: @string_first_array[$first_string_location[0] + $current_pointer_shift - 1]\n");
         #print("Debug: First right on string 2: @string_second_array[$second_string_location[0] + $current_pointer_shift - 1]\n");
         if (@string_first_array[$first_string_location[0] + $current_pointer_shift - 1] eq @string_second_array[$second_string_location[0] + $current_pointer_shift - 1]) {
@@ -158,7 +161,7 @@ sub scanStringReturnString {
         }
     }
 
-    $final_concat_string = $left_string . $kmer . $right_string;
+    $final_concat_string = $left_string . $kmer_str . $right_string;
 
     return [ $total_match, $final_concat_string ]
 }
@@ -177,25 +180,7 @@ open _FileQ, "Q.txt";
 open _FileS, "S.txt";
 
 my $query_Q = <_FileQ>;
-# my $string_S = <S>;
-# my %hash_table_Q_kmers = findKmerWithFirstLocation($query_Q); # ther, 33
-# my %hash_table_S_kmers = findKmerWithFirstLocation($string_S);
-
-# INITIALIZE HASH TABLE #
-# data structure of hash table
-# kmers => { s3:loc7                   }
-
-# storage all S lines in to a list
-# all S data in a list
 my @data_s;
-my $threshold = 6;
-my $kmer = 4;
-
-# mkvlwaallvtflagcqakveqavetepepelrqqtewqsgqrwelalgrfwdylrwvqt
-#     lseqvqeellssqvtqelralmdetmkelkaykseleeqltpvaeetrarlskelqaaqa
-#         rlgadvlashgrlvqyrgevqamlgqsteelrvrlashlrklrkrllrvlashqkrlavy
-#             qagaregaerglsairerlgplveqgrvraatvgslagqplqeraqawgerlrarmeemg
-#                 srtrdrldevkeqvaevrakleeqaqqirlvlashqarlkswfeplvedmqrqwaglvek
 
 while (my $line = <_FileS>) {
     push(@data_s, $line)
@@ -276,10 +261,10 @@ foreach my $hashTableKey (keys(%hash_table)) {
 
 
                 # print("$cache\n");
-                if (!(@{$max}[1].'' ~~ @final_result)) {
+                if (!(@{$max}[1] . '' ~~ @final_result)) {
                     push(@final_result, @{$max}[1]);
                 }
-               
+
                 # 
                 # print("(!) @{$max}[1]\n");
 
@@ -295,23 +280,6 @@ foreach my $hashTableKey (keys(%hash_table)) {
 foreach my $single_value (@final_result) {
     print("FINAL RESULT IS: $single_value\n");
 }
-
-
-# Then put the characters of Q and S in arrays (as we did in needleman.pl) so
-# that you can examine individual characters.
-
-#split up the line into individual characters
-
-# Then scan left from the k-mer in Q and in S, as long
-# as you find matching characters. Repeat to the right. Let L denote the length of the whole match
-# obtained in this way. If L is greater than 10, then print a message that a good HSP has been
-# found between Q and S, and print S. Notice that the same HSP gets reported multiple times.
-# Explain why that happens.
-
-# scanString(str1, str1pos, str2, str2pos)
-# arg0 = "", arg1 = int , arg2 = "", arg3 = "", arg4 = int, arg5 = ""
-
-# print(scanString($query_Q, @location_Q, $string_S, @location_S));
 
 close(_FileQ);
 close(_FileS);
