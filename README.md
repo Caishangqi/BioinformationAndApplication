@@ -1,7 +1,7 @@
 # BioInformation and Application
 
 <p align="center">
-<img src = "https://user-images.githubusercontent.com/39553613/198856674-e42da0f1-9bc4-4cf8-805a-5bc7ae5ae9eb.jpg" width = 50% height = 50%>
+<img src = "https://user-images.githubusercontent.com/39553613/224576048-2666e795-5ba5-4f57-a896-f2bbaba881d7.png" width = 50% height = 50%>
 </p>
 
 <h4 align="center">生物信息应用与算法构建 主要使用脚本语言perl和python构建</h4>
