@@ -1,8 +1,7 @@
 from Bio import SeqIO, Phylo
-from Bio.Align import MultipleSeqAlignment, Alignment
-from Bio.Seq import Seq
-from Bio.Phylo.TreeConstruction import DistanceCalculator, DistanceTreeConstructor
+from Bio.Align import MultipleSeqAlignment
 from Bio.Phylo import write
+from Bio.Phylo.TreeConstruction import DistanceCalculator, DistanceTreeConstructor
 from Bio.SeqRecord import SeqRecord
 
 # # Define the filenames for the fasta files
@@ -38,10 +37,14 @@ calculator = DistanceCalculator('identity')
 # distance_matrix = calculator.get_distance(sequences.values())
 distance_matrix = calculator.get_distance(msa)
 
+# print the lib distance matrix map()
+print(distance_matrix)
+
 # Create an neighbor-joining tree from the distance matrix
 constructor = DistanceTreeConstructor()
 tree = constructor.nj(distance_matrix)
 
 Phylo.draw(tree)
 # Write the tree to a csv file
-write(tree, 'ultrametric_tree_nbj.csv', 'phyloxml')
+# A CS way represent node and edge
+write(tree, 'ultrametric_tree_nbj.csv', 'nexml')

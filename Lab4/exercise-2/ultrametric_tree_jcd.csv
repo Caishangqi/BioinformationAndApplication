@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<nex:nexml xmlns="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:nex="http://www.nexml.org/2009" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:cdao="http://purl.obolibrary.org/obo/cdao.owl#" xmlns:obo="http://purl.obolibrary.org/obo/" version="0.9" xsi:schemaLocation="http://www.nexml.org/2009/nexml/xsd/nexml.xsd">
+  <otus id="tax" label="RootTaxaBlock">
+    <otu id="AY079510.1"/>
+    <otu id="Inner8"/>
+    <otu id="AF315498.1"/>
+    <otu id="AF451964.1"/>
+    <otu id="Inner2"/>
+    <otu id="Inner3"/>
+    <otu id="Inner1"/>
+    <otu id="AF176731.1"/>
+    <otu id="Inner5"/>
+    <otu id="AF089820.1"/>
+    <otu id="Inner10"/>
+    <otu id="Inner4"/>
+    <otu id="Inner7"/>
+    <otu id="Inner6"/>
+    <otu id="AF176766.1"/>
+    <otu id="AF176722.1"/>
+    <otu id="Inner9"/>
+    <otu id="AF050738.1"/>
+    <otu id="AF254446.1"/>
+    <otu id="AF451972.1"/>
+    <otu id="AF011222.1"/>
+    <otu id="X90314.1"/>
+    <otu id="Inner11"/>
+  </otus>
+  <trees id="Trees" label="TreesBlockFromXML" otus="tax">
+    <tree id="tree1">
+      <node id="node1" label="node1" root="true" otu="Inner11"/>
+      <node id="node2" label="node2" otu="Inner9"/>
+      <edge id="edge1" source="node1" target="node2" length="0.02002673303834812" typeof="obo:CDAO_0000099"/>
+      <node id="node3" label="node3" otu="Inner8"/>
+      <edge id="edge2" source="node2" target="node3" length="0.007962297197640134" typeof="obo:CDAO_0000099"/>
+      <node id="node4" label="node4" otu="AF315498.1"/>
+      <edge id="edge3" source="node3" target="node4" length="0.3381268436578171" typeof="obo:CDAO_0000099"/>
+      <node id="node5" label="node5" otu="Inner6"/>
+      <edge id="edge4" source="node3" target="node5" length="0.014749262536873142" typeof="obo:CDAO_0000099"/>
+      <node id="node6" label="node6" otu="AF451964.1"/>
+      <edge id="edge5" source="node5" target="node6" length="0.32337758112094395" typeof="obo:CDAO_0000099"/>
+      <node id="node7" label="node7" otu="Inner3"/>
+      <edge id="edge6" source="node5" target="node7" length="0.12942477876106193" typeof="obo:CDAO_0000099"/>
+      <node id="node8" label="node8" otu="AF176722.1"/>
+      <edge id="edge7" source="node7" target="node8" length="0.19395280235988202" typeof="obo:CDAO_0000099"/>
+      <node id="node9" label="node9" otu="Inner2"/>
+      <edge id="edge8" source="node7" target="node9" length="0.049410029498525104" typeof="obo:CDAO_0000099"/>
+      <node id="node10" label="node10" otu="AF176731.1"/>
+      <edge id="edge9" source="node9" target="node10" length="0.14454277286135692" typeof="obo:CDAO_0000099"/>
+      <node id="node11" label="node11" otu="AF176766.1"/>
+      <edge id="edge10" source="node9" target="node11" length="0.14454277286135692" typeof="obo:CDAO_0000099"/>
+      <node id="node12" label="node12" otu="Inner5"/>
+      <edge id="edge11" source="node2" target="node12" length="0.10604489306784659" typeof="obo:CDAO_0000099"/>
+      <node id="node13" label="node13" otu="Inner4"/>
+      <edge id="edge12" source="node12" target="node13" length="0.020280235988200584" typeof="obo:CDAO_0000099"/>
+      <node id="node14" label="node14" otu="AY079510.1"/>
+      <edge id="edge13" source="node13" target="node14" length="0.21976401179941005" typeof="obo:CDAO_0000099"/>
+      <node id="node15" label="node15" otu="Inner1"/>
+      <edge id="edge14" source="node13" target="node15" length="0.19321533923303838" typeof="obo:CDAO_0000099"/>
+      <node id="node16" label="node16" otu="AF050738.1"/>
+      <edge id="edge15" source="node15" target="node16" length="0.026548672566371667" typeof="obo:CDAO_0000099"/>
+      <node id="node17" label="node17" otu="AF089820.1"/>
+      <edge id="edge16" source="node15" target="node17" length="0.026548672566371667" typeof="obo:CDAO_0000099"/>
+      <node id="node18" label="node18" otu="X90314.1"/>
+      <edge id="edge17" source="node12" target="node18" length="0.24004424778761063" typeof="obo:CDAO_0000099"/>
+      <node id="node19" label="node19" otu="Inner10"/>
+      <edge id="edge18" source="node1" target="node19" length="0.004171275811209463" typeof="obo:CDAO_0000099"/>
+      <node id="node20" label="node20" otu="Inner7"/>
+      <edge id="edge19" source="node19" target="node20" length="0.02212389380530977" typeof="obo:CDAO_0000099"/>
+      <node id="node21" label="node21" otu="AF451972.1"/>
+      <edge id="edge20" source="node20" target="node21" length="0.331858407079646" typeof="obo:CDAO_0000099"/>
+      <node id="node22" label="node22" otu="AF254446.1"/>
+      <edge id="edge21" source="node20" target="node22" length="0.331858407079646" typeof="obo:CDAO_0000099"/>
+      <node id="node23" label="node23" otu="AF011222.1"/>
+      <edge id="edge22" source="node19" target="node23" length="0.35398230088495575" typeof="obo:CDAO_0000099"/>
+    </tree>
+  </trees>
+</nex:nexml>
