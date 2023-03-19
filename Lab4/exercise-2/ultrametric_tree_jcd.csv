@@ -1,29 +1,29 @@
 <?xml version="1.0" ?>
 <nex:nexml xmlns="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:nex="http://www.nexml.org/2009" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:cdao="http://purl.obolibrary.org/obo/cdao.owl#" xmlns:obo="http://purl.obolibrary.org/obo/" version="0.9" xsi:schemaLocation="http://www.nexml.org/2009/nexml/xsd/nexml.xsd">
   <otus id="tax" label="RootTaxaBlock">
-    <otu id="AY079510.1"/>
+    <otu id="AF176731.1"/>
     <otu id="Inner8"/>
+    <otu id="AF254446.1"/>
+    <otu id="AF089820.1"/>
+    <otu id="Inner2"/>
+    <otu id="X90314.1"/>
+    <otu id="Inner3"/>
+    <otu id="AY079510.1"/>
+    <otu id="Inner6"/>
+    <otu id="Inner11"/>
     <otu id="AF315498.1"/>
     <otu id="AF451964.1"/>
-    <otu id="Inner2"/>
-    <otu id="Inner3"/>
+    <otu id="AF011222.1"/>
     <otu id="Inner1"/>
-    <otu id="AF176731.1"/>
-    <otu id="Inner5"/>
-    <otu id="AF089820.1"/>
+    <otu id="AF176722.1"/>
+    <otu id="AF050738.1"/>
+    <otu id="Inner7"/>
+    <otu id="Inner9"/>
     <otu id="Inner10"/>
     <otu id="Inner4"/>
-    <otu id="Inner7"/>
-    <otu id="Inner6"/>
-    <otu id="AF176766.1"/>
-    <otu id="AF176722.1"/>
-    <otu id="Inner9"/>
-    <otu id="AF050738.1"/>
-    <otu id="AF254446.1"/>
     <otu id="AF451972.1"/>
-    <otu id="AF011222.1"/>
-    <otu id="X90314.1"/>
-    <otu id="Inner11"/>
+    <otu id="AF176766.1"/>
+    <otu id="Inner5"/>
   </otus>
   <trees id="Trees" label="TreesBlockFromXML" otus="tax">
     <tree id="tree1">
