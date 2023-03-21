@@ -1,4 +1,5 @@
 import copy
+import csv
 import math
 
 from Bio import SeqIO, Phylo
@@ -140,7 +141,7 @@ print(msa)
 # Perform global alignment using Needleman-Wunsch algorithm and BLOSUM62 matrix
 # in this program I use the minimum length, comparing to classmates tree result, it have same result.
 substitution_matrix = substitution_matrices.load("BLOSUM62")
-aligner = AlignInfo.SummaryInfo(msa) # you can delete shortest length code block to use global alignment
+aligner = AlignInfo.SummaryInfo(msa)  # you can delete shortest length code block to use global alignment
 alignment = aligner.dumb_consensus()
 print(alignment)
 
@@ -170,6 +171,24 @@ print(distance_matrix)
 # Create an neighbor-joining tree from the distance matrix
 constructor = DistanceTreeConstructor()
 tree = constructor.nj(distance_matrix)
+
+# Print the merging steps
+for clade in tree.find_clades(order="level"):
+    if clade.is_terminal():
+        print(clade.name, "was merged into", clade.name)
+    else:
+        taxa = ", ".join([terminal.name for terminal in clade.get_terminals()])
+        print(taxa, "were merged into", clade.name)
+
+with open("merging_steps_nbj.csv", "w") as csv_file:
+    writer = csv.writer(csv_file)
+    writer.writerow(["Child", "Parent"])
+    for clade in tree.find_clades(order="level"):
+        if clade.is_terminal():
+            writer.writerow([clade.name, clade.name])
+        else:
+            taxa = ", ".join([terminal.name for terminal in clade.get_terminals()])
+            writer.writerow([taxa, clade.name])
 
 Phylo.draw(tree)
 # Write the tree to a csv file
