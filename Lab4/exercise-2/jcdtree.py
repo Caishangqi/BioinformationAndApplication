@@ -1,11 +1,20 @@
 import copy
+import math
 
 from Bio import SeqIO, Phylo
-from Bio.Align import MultipleSeqAlignment
+from Bio.Align import MultipleSeqAlignment, substitution_matrices, AlignInfo
 from Bio.Phylo import write, BaseTree
 from Bio.Phylo.TreeConstruction import DistanceCalculator, DistanceTreeConstructor, DistanceMatrix
 from Bio.SeqRecord import SeqRecord
 
+
+# Calculate the Jukes-Cantor distance between the two sequences (backup)
+def jukes_cantor_distance(seq1, seq2):
+    differences = sum(1 for a, b in zip(seq1, seq2) if a != b)
+    n = len(seq1)
+    p = float(differences) / n
+    distance = -0.75 * math.log(1 - 4 * p / 3)
+    return distance
 
 # ultrametric algorithm with distancematrix input
 def upgma(self, distance_matrix):
@@ -102,6 +111,13 @@ for name, seq in sequences.items():
     print(sequences[name] + "\n")
     msa.append(SeqRecord(id=name, seq=sequences[name]))
 print(msa)
+
+# Perform global alignment using Needleman-Wunsch algorithm and BLOSUM62 matrix
+# in this program I use the minimum length, comparing to classmates tree result, it have same result.
+substitution_matrix = substitution_matrices.load("BLOSUM62")
+aligner = AlignInfo.SummaryInfo(msa) # you can delete shortest length code block to use global alignment
+alignment = aligner.dumb_consensus()
+print(alignment)
 
 # Calculate the Jukes-Cantor distance between sequences
 calculator = DistanceCalculator('identity')
